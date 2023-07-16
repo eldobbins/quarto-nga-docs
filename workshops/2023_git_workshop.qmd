@@ -1,0 +1,32 @@
+---
+title: "2023 Git Workshop"
+subtitle: "NGA LTER"
+---
+
+::: {.callout-tip icon="false"}
+
+In Feb. 2023, we had a one day workshop within NGA LTER via Zoom to practice git and GitHub. The slides were presented in Google Slides, 
+but later converted to `markdown` and rendered to `revealjs` using [Quarto](https://quarto.org/).
+
+:::
+
+
+## One Day Git Workshop, 2023 {#git}
+
+This one day workshop is meant as a refresher of the skills we practiced in 2021's [Beginning Scientific Programming for NGA LTER Graduate Students](https://nga-lter.github.io/2021-01-04-ngalter/). The workshop will begin with a short presentation of the importance of version control; this portion focuses on the themes of collaboration and inclusivity championed by the [Openscapes](https://openscapes.org) project.
+
+Following that orientation is a one hour participatory practice session working through parts of the Software Carpentries [Git Novice Lesson](http://swcarpentry.github.io/git-novice/). 
+
+
+::: {.callout-warning icon="false"}
+## Slides
+
+[Version Control with git (and GitHub)](../slides/2023_git/2023_git_slides.qmd)
+
+Explore the slides following these [instructions for navigation](https://quarto.org/docs/presentations/revealjs/presenting.html).
+
+:::
+
+[![](../images/TheCarpentries.svg){width=300}](https://carpentries.org)
+
+[![](../images/openscapes_hex_badge.png){width=90}](https://openscapes.org)
