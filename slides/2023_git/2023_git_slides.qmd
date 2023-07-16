@@ -9,7 +9,6 @@ format:
     footer: Version Control with git (and GitHub)
     header-logo: ../../images/ngalter.jpeg
     theme: serif
-    embed-resources: true
 filters:
   - reveal-header
 
