@@ -1,0 +1,173 @@
+---
+title: "Open Science is Better Science"
+subtitle: "Week 1 of Data Science for NGA LTER REU Students"
+author: "Liz Dobbins"
+institute: NGA LTER / Axiom Data Science
+date: "July 20, 2023"
+format:
+  revealjs:
+    slide-number: true
+    _logo: ../../images/ngalter.jpeg
+    <!-- footer: Week 1 of Data Science for NGA LTER REU Students -->
+    header-logo: ../../images/ngalter.jpeg
+    theme: serif
+    embed-resources: true
+filters:
+  - reveal-header
+
+---
+
+## Goals: Why Are We Doing This?
+
+::: {.incremental}
+1. Learn some skills
+2. Build a structure which enables graceful recovery (scaffolding)
+3. Provide resources to use in the future (open a door)
+4. Contribute to the community
+:::
+
+::: {.notes}
+We don't have time to cover everything. 
+
+:::
+
+## Who am I?
+
+
+- Liz Dobbins (she/her)
+- Used to work for Seth processing physical oceanographic data
+- Now I work for [Axiom Data Science](https://www.axiomdatascience.com)
+- Python, MATLAB, git, Jupyter, Pandas
+- The Troth Yeddha' Campus is located on the ancestral lands of the Dena people of the lower Tanana River. Troth Yeddha' means `Indian potato ridge`. 
+
+::: {.notes}
+Liz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing.
+
+"The parsnip-like root of the plant Hedysarum alpinum is an emergency vegetable food for Alaska Native people." I love that this campus has been renamed after a food plant.
+:::
+
+---
+
+
+![AOOS Data Portal](images/aoos_screenshot.png){width=200 fig-alt="a map showing air temperature measurement in the Gulf of Alaska"}
+
+
+---
+
+[![Credit: [Allison Horst/Openscapes](https://openscapes.org/approach.html)](https://openscapes.org/images/page_imgs/horst_openscapes_champions.jpg){fig-alt="Sad animals working alone are welcomed by a smiling fox to a land of bounty."}
+
+::: {.notes}
+What is _My_ Vision?
+- I recognize but reject the image of all the sad little animals working alone
+- I want to be the fox welcoming them into the land of plenty
+- I believe there are praactices from the wider world that would make Oceanography better
+- and better science - better Oceanography - will make the world better because science is important.
+:::
+
+
+## Code of Conduct
+
+- Use welcoming and inclusive language
+- Be respectful of different viewpoints and experiences
+- Gracefully accept constructive criticism
+- Focus on what is best for the community
+- Show courtesy and respect towards other community members
+
+From [The Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
+
+::: {.notes}
+specifically focused on participatory learning environment
+where we are all putting ourself "out there" and making mistakes
+:::
+
+
+## Mistakes?
+
+
+> Science, my lad, is made up of mistakes, but they are mistakes which it is useful to make, because they lead little by little to the truth.” 
+
+― Jules Verne, [A Journey to the Center of the Earth](https://www.google.com/books/edition/A_Journey_to_the_Centre_of_the_Earth/d9EZAAAAYAAJ?hl=en&gbpv=1&printsec=frontcover)
+
+. . .
+
+<br />
+<br />
+
+> Dammit!
+
+- Liz Dobbins, just yesterday
+
+::: {.notes}
+So mistakes are constantly with us, but they are so frustrating
+
+We want to recover from them quickly
+:::
+
+
+## Scripting
+
+* You try something and it doesn't work. What's the easiest way to fix it?
+* It did work!  How do you do it again?
+* Someone else wants to apply what you did to their work!!! How do you show them how?
+
+. . .
+
+Answer: Use Code.  
+
+Python, R, MATLAB doesn't matter
+
+```python
+import pandas as pd
+data = pd.read_csv('temperature.csv')
+data['site1'].plot()
+```
+
+
+---
+
+<!-- Growth Mindset -->
+
+![Credit: [National Center for Youth Issues](https://ncyi.org/product/growthmindsetremindersp/)](images/RPD-001-Growth-Mindset-Reminders-Poster.jpeg){height=600}
+
+::: {.notes}
+I first became aware of this philosophy because of my son's sports team:
+
+* skiing = always falling down
+* racing = not always winning
+
+It makes sense to apply it to any endevor where you are learning something new.
+:::
+
+
+## What is Version Control?
+
+![Credit: [Allison Horst](https://allisonhorst.com/git-github)](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/78587c8b-fa99-4c94-bce2-026cf4e588b5_rw_1920.png?h=a9bcd5a907323d4cb9806a7c75fad319){fig-alt="A drawing of rock climbing monsters."}
+
+
+::: {.notes}
+Version control is a system that records changes to a file or set of files over time so you can recall a specific version later.
+
+- collaboration
+- management
+- transparency
+- reproducibility
+
+We'll be talking more about git and version control next week
+:::
+
+## Open Science
+
+<br />
+<br />
+
+> Open Science is transparent and accessible knowledge that is shared and developed through collaborative networks.
+
+- [Open Science now: A systematic literature review for an integrated definition](https://doi.org/10.1016/j.jbusres.2017.12.043). Ruben Vicente-Saez & Clara Martinez-Fuentes, 2018
+
+## Data Life Cycle
+
+![Data Life Cycle. [DataONE Best Practices](https://dataoneorg.github.io/Education/bestpractices/)](images/dataone_data_life_cycle.png)
+
+
+::: {.notes}
+:::
