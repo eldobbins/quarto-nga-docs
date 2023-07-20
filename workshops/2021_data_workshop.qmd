@@ -5,7 +5,7 @@
 ::: {.callout-tip icon="false"}
 
 This is the syllabus from the data workshop presented to the 2021 cohort of 
-[Research Experience for Undergraduates (REU)](https://nga.lternet.edu/education-outreach/reu/) students of the Northern Gulf of Alaska Long Term Ecological Research ([NGA LTER](https://nga.lternet.edu)) project. The slides were done in Google Slides, and PDF versions are stored in a GitHub repo: [nga-reu-2021](https://github.com/nga-lter/nga-reu-2021/tree/main/presentations). The curriculum draws heavily from lessons prepared by The Carpentries. The workshop was help remotely via Zoom.
+[Research Experience for Undergraduates (REU)](https://nga.lternet.edu/education-outreach/reu/) students of the Northern Gulf of Alaska Long Term Ecological Research ([NGA LTER](https://nga.lternet.edu)) project. The slides were done in Google Slides, and PDF versions are stored in a GitHub repo: [nga-reu-2021](https://github.com/nga-lter/nga-reu-2021/tree/main/presentations). The curriculum draws heavily from lessons prepared by The Carpentries. The workshop was held remotely via Zoom.
 
 :::
 

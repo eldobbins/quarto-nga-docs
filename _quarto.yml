@@ -1,15 +1,11 @@
 project: 
   type: website
-  render:
-    - index.qmd
-    - workshops/*
-    - slides/2023_git/2023_git_slides.qmd
   
 website: 
   page-navigation: true
   title: "NGA LTER Education Documents" 
-  site-url: "https://openscapes.github.io/quarto-website-tutorial" 
-  repo-url: https://github.com/openscapes/quarto-website-tutorial 
+  site-url: "https://eldobbins.github.io/quarto-nga-docs/" 
+  repo-url: https://github.com/eldobbins/quarto-nga-docs 
   repo-actions: [issue]
   
   page-footer:
@@ -45,6 +41,9 @@ website:
         icon: dot
       - href: workshops/2023_git_workshop.qmd
         text: One Day Git Workshop, 2023
+        icon: dot
+      - href: workshops/2023_data_workshop.qmd
+        text: Four Week REU Series, 2023
         icon: dot
         
 

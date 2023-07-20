@@ -54,7 +54,7 @@ Liz Dobbins has been working with oceanographic data for more than 30 years in b
 
 ---
 
-[![Credit: [Allison Horst/Openscapes](https://openscapes.org/approach.html)](https://openscapes.org/images/page_imgs/horst_openscapes_champions.jpg){fig-alt="Sad animals working alone are welcomed by a smiling fox to a land of bounty."}
+![Credit: [Allison Horst/Openscapes](https://openscapes.org/approach.html)](https://openscapes.org/images/page_imgs/horst_openscapes_champions.jpg){fig-alt="Sad animals working alone are welcomed by a smiling fox to a land of bounty."}
 
 ::: {.notes}
 What is _My_ Vision?
@@ -80,13 +80,26 @@ specifically focused on participatory learning environment
 where we are all putting ourself "out there" and making mistakes
 :::
 
+## Tell Me About You
+
+
+## Open Science
+
+<br />
+
+> Open Science is transparent and accessible knowledge that is shared and developed through collaborative networks.
+
+<br />
+
+[Open Science now: A systematic literature review for an integrated definition](https://doi.org/10.1016/j.jbusres.2017.12.043). Ruben Vicente-Saez & Clara Martinez-Fuentes, 2018
+
 
 ## Mistakes?
 
 
-> Science, my lad, is made up of mistakes, but they are mistakes which it is useful to make, because they lead little by little to the truth.” 
+> Science, my lad, is made up of mistakes, but they are mistakes which it is useful to make, because they lead little by little to the truth.
 
-― Jules Verne, [A Journey to the Center of the Earth](https://www.google.com/books/edition/A_Journey_to_the_Centre_of_the_Earth/d9EZAAAAYAAJ?hl=en&gbpv=1&printsec=frontcover)
+Jules Verne, [A Journey to the Center of the Earth](https://www.google.com/books/edition/A_Journey_to_the_Centre_of_the_Earth/d9EZAAAAYAAJ?hl=en&gbpv=1&printsec=frontcover)
 
 . . .
 
@@ -95,12 +108,28 @@ where we are all putting ourself "out there" and making mistakes
 
 > Dammit!
 
-- Liz Dobbins, just yesterday
+Liz Dobbins, just yesterday
 
 ::: {.notes}
 So mistakes are constantly with us, but they are so frustrating
 
 We want to recover from them quickly
+:::
+
+---
+
+<!-- Growth Mindset -->
+
+![Credit: [National Center for Youth Issues](https://ncyi.org/product/growthmindsetremindersp/)](images/RPD-001-Growth-Mindset-Reminders-Poster.jpeg){height=600}
+
+::: {.notes}
+I first became aware of this philosophy because of my son's sports team:
+
+* skiing = always falling down
+* racing = not always winning
+
+It makes sense to apply it to any endevor where you are learning something new - which I'm sure you do.
+You wouldn't be here if you didn't have confidence in your ability to adapt and learn new things.
 :::
 
 
@@ -123,22 +152,6 @@ data['site1'].plot()
 ```
 
 
----
-
-<!-- Growth Mindset -->
-
-![Credit: [National Center for Youth Issues](https://ncyi.org/product/growthmindsetremindersp/)](images/RPD-001-Growth-Mindset-Reminders-Poster.jpeg){height=600}
-
-::: {.notes}
-I first became aware of this philosophy because of my son's sports team:
-
-* skiing = always falling down
-* racing = not always winning
-
-It makes sense to apply it to any endevor where you are learning something new.
-:::
-
-
 ## What is Version Control?
 
 ![Credit: [Allison Horst](https://allisonhorst.com/git-github)](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/78587c8b-fa99-4c94-bce2-026cf4e588b5_rw_1920.png?h=a9bcd5a907323d4cb9806a7c75fad319){fig-alt="A drawing of rock climbing monsters."}
@@ -155,19 +168,42 @@ Version control is a system that records changes to a file or set of files over 
 We'll be talking more about git and version control next week
 :::
 
-## Open Science
-
-<br />
-<br />
-
-> Open Science is transparent and accessible knowledge that is shared and developed through collaborative networks.
-
-- [Open Science now: A systematic literature review for an integrated definition](https://doi.org/10.1016/j.jbusres.2017.12.043). Ruben Vicente-Saez & Clara Martinez-Fuentes, 2018
-
 ## Data Life Cycle
 
 ![Data Life Cycle. [DataONE Best Practices](https://dataoneorg.github.io/Education/bestpractices/)](images/dataone_data_life_cycle.png)
 
 
 ::: {.notes}
+Can think of a scientific project as linear - from hypothesis to publications.
+
+But can also think of it as cyclical and interative. Each circuit around produces (one hopes) better quality data and more scientific insight.
+:::
+
+## Data Best Practices
+
+* We receive data from other people
+* We supply data to other people
+* Data need to be
+  * High quality
+  * In an accessible format
+  * Accompanied by metadata
+
+
+## Potential Team Project
+
+* Use [Quarto](https://quarto.org/) and [GitHub](https://github.com/nga-lter) and Markdown to reflect on your REU
+* Content/Form of the document is limitless
+* Get a DOI (Digital Object Identifier) for later use
+  * Graduate school applications
+  * Job applications
+* Tour of [this Quarto project](../../index.html)
+
+![](images/quarto_logo.png)
+
+::: {.notes}
+Totally dependent on if you guys have interest and capacity
+
+* Could include code/plots/interactive bits (if you use R or Python)
+* Include images
+
 :::

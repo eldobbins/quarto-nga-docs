@@ -1,0 +1,73 @@
+
+# Working with Data for REU Students, 2023
+## A four week workshop presented by Liz Dobbins 
+### (liz@axiomdatascience.com)
+
+::: {.callout-tip icon="false"}
+
+This is the syllabus from the data workshop presented to the 2023 cohort of 
+[Research Experience for Undergraduates (REU)](https://nga.lternet.edu/education-outreach/reu/) students of the Northern Gulf of Alaska Long Term Ecological Research ([NGA LTER](https://nga.lternet.edu)) project. The slides were done in Quarto. The design of the curriculum is influenced by [Openscapes](https://openscapes.org/)<!--, while the lessons themselves draw The Carpentries-->. The workshop was held in person!
+
+:::
+
+<!-- [![](../images/TheCarpentries.svg){width=300}](https://carpentries.org) -->
+
+[![](../images/openscapes_hex_badge.png){width=90}](https://openscapes.org)
+
+
+## Introduction
+
+This four week workshop will introduce undergraduate students to current best practices regarding reproducible scientific research and data. Whereas the previous version of this workshop included Carpentries lessons for hands on practice, four weeks might not be long enough to to include those. Instead, the emphasis is on motivations and developing the culture of Open Science. This will hopefully enable further exploration of these topics by the students on their own. As such, this workshop is meant to be an introduction to topics students will confront if they continue as a graduate student or scientist. 
+
+## Topic Overview
+
+### Week 1: Open Science is Better Science
+
+* Introductions
+* Open Science
+  * Mistakes
+  * Growth Mindset
+* Scaffolding
+  * Scripting
+  * Version control
+  * Data Life Cycle
+* Introduction of a Possible Team Project
+
+### Week 2: Tooling in More Depth
+
+* Scripts (R, Python, MATLAB, ...)
+  * Making code readable (reproducibility, again)
+  * Defensive programming, debugging, and testing
+* Version control with git
+* Sharing and Collaborating using GitHub
+* Quarto and publishing
+  * Markdown
+* Team project?
+
+### Week 3: Data Engineering
+
+* Data sources and archives
+* Metadata
+* FAIR
+  * Findable
+  * Accessible
+  * Interoperable
+  * Reproducible
+
+### Week 4: TBD
+
+
+::: {.callout-warning icon="false"}
+## Slides
+
+[Open Science is Better Science](../slides/2023_reu_intro/2023_intro_slides.qmd)
+
+Explore the slides following these [instructions for navigation](https://quarto.org/docs/presentations/revealjs/presenting.html).
+
+:::
+
+
+## Instructor information: 
+
+Liz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing.
+
