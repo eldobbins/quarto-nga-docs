@@ -1,0 +1,142 @@
+---
+title: "NGA LTER Programming Resources"
+subtitle: "Links to Documentation and Tutorials"
+---
+
+
+## Python
+
+![](../images/python-logo.png){height=75 fig-align="left"}
+
+Python is essentially an open source programming language. But the Python ecosystem encompasses a dizzying constellation of tools, packages, disciplines, and organizations. The center is the Python Standard Library - a set of built-in functions and modules. But anyone can build extensions to that called `packages`. 
+
+Because of these layers, it is sometimes difficult to know how to find information on the particular object type or function that you want to use. Another difficulty is the big disconnect between basic tutorials that cover Python syntax and the modern packages that are used to actually do the work. Those packages often are so abstract that you might not need to know much syntax to do some really cool things.
+
+It is suggested that you learn the rudiments of the language and learn to read documentation. Memorize the basic syntax to ease understanding more complicated code later. But don't view Numpy and Matplotlib as the next step! You should jump to packages like to Pandas and Xarray as soon as you can, because they wrap most plotting and array manipulations in a much easier syntax.
+
+
+### Documentation
+
+* Most recent [Python Docs](https://docs.python.org/3/)
+* [The Python Standard Library](https://docs.python.org/3/library/index.html)
+
+
+### Tutorials
+
+Python learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, ) offer Python classes.  
+
+* [Python for Non-Programmers](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
+* [The Carpentries](https://carpentries.org) offers several Python tutorials
+  * [Data Analysis and Visualization in Python for Ecologists](https://datacarpentry.org/python-ecology-lesson/): jumps right into pandas
+  * [Python for Atmosphere and Ocean Scientists](https://carpentries-lab.github.io/python-aos-lesson/) is a community developed lesson specifically for Ocean and Atmospheric science using Xarray
+  * [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/): using pandas and gapminder data
+* [Our Coding Club](https://ourcodingclub.github.io/tutorials.html) has several science related Python tutorials
+* [Datalab at Rutgers University](https://datalab.marine.rutgers.edu/2020/10/introduction-to-python-part-1/) has several oceanography specific tutorials prepared for REU students during the online 2020 season.
+
+
+### Relevant Packages
+
+#### General Data Manipulation
+
+* [pandas](https://pandas.pydata.org): data analysis and manipulation tool for 1D and 2D data - like for data easily stored in CSV (comma separated values) files and tables.
+  * [pandas docs](https://pandas.pydata.org/docs/). Pandas documentation is some of the best documentation around!
+  * pandas [Getting started tutorials](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html)
+* [Xarray](https://xarray.dev): N-D labeled arrays and datasets in Python - like for netCDF files and model output.
+  * [Xarray docs](https://docs.xarray.dev/en/stable/)
+  * [Xarray Tutorial](https://tutorial.xarray.dev/intro.html)
+
+#### Earth Sciences
+
+* [Sci-tools](https://scitools.org.uk): powerful Python-based open-source tools for Earth scientists. Includes:
+  * Cartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.
+  * cf-units is a wrapper class to support Unidata/UCAR UDUNITS-2
+  *  Iris is a powerful tool used for manipulating multi-dimensional earth science data
+
+#### Specifically Oceanographic
+
+* [Gibbs Sea Water Toolbox](https://teos-10.github.io/GSW-Python/): Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10)
+* [cmocean](https://matplotlib.org/cmocean/): Beautiful colormaps for oceanography
+* A stack of GitHub repos called [POceans](https://github.com/pyoceans): Python modules for oceanography
+  * Includes list of packages called [SEA-PY: Python Tools for Oceanographic Analysis](https://pyoceans.github.io/sea-py/)
+* Another list from the SOEST, University of Hawaii: [The Python scientific stack for oceanography](https://currents.soest.hawaii.edu/ocn_data_analysis/basics.html#the-python-scientific-stack-for-oceanography)
+
+
+### Additional Tools
+
+Several types of additional tools will make your Python experience much better. First, because packages make Python so powerful, proficiency with package management (pip, conda, mamba) is essential. Second, whereas MATLAB and R have a single primary integrated development environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)), Python has multiple possibilities such as Spyder, PyCharm, or VSCode; using one of these makes debugging so much easier. Lastly, you can mix [Markdown](#markdown) and Python in Jupyter Notebooks, or even use Jupyter Lab as an IDE. 
+
+#### Package Management
+
+* Standard [Package Managment (pip)](https://packaging.python.org/en/latest/tutorials/installing-packages/)
+* [Conda Users Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html) - package management using virtual environments 
+* [Mamba Docs](https://mamba.readthedocs.io/en/latest/index.html) - like conda but much faster for virtual environments with complicated packages and dependencies.
+
+#### IDEs
+
+* [Spyder](https://www.spyder-ide.org) the Scientific Python Development Environment written in Python and distributed as a package.
+* [PyCharm](https://www.jetbrains.com/pycharm/), "The Python IDE for Professional Developers"
+* [VSCode](https://code.visualstudio.com/docs/languages/python) is a code editor for multiple languages that has a Python extension.
+
+#### Jupyter Notebooks
+
+* [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/), "A computational ... shareable document that combines computer code, plain language descriptions, data, rich visualizations like 3D models, charts, graphs and figures, and interactive controls."
+* [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/) is a "highly extensible, feature-rich notebook authoring application and editing environment". That means you run Notebooks in Jupyter Lab.
+* [Google Colaboratory (Colab)](https://colab.research.google.com): write and execute Python in your browser. Not _exactly_ Jupyter, but pretty close.
+* [Research Workspace](https://researchworkspace.com/intro/), the platform that NGA LTER uses for data management, includes [Jupyter Notebooks](https://researchworkspace.com/help/JupyterNotebooks.html) within that environment.
+
+---
+
+## R
+
+![](../images/Rlogo.png){height=65 fig-align="left"}
+
+R is a programming language. You can use it more easily within RStudio, an integrated development environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)). From [What is R?](https://www.r-project.org/about.html):
+
+> Many users think of R as a statistics system. We prefer to think of it as an environment within which statistical techniques are implemented. R can be extended (easily) via packages. There are about eight packages supplied with the R distribution and many more are available through the CRAN family of Internet sites covering a very wide range of modern statistics.
+
+* [The R Project for Statistical Computing](https://www.r-project.org)
+* Openscapes' [Coding strategies for future us](https://openscapes.github.io/series/core-lessons/coding-strategies.html)
+* [What They Forgot to Teach You About R](https://rstats.wtf)
+
+---
+
+## MATLAB
+
+![](../images/MATLAB-logo.png){height=100 fig-align="left"}
+
+MATLAB is a product of the company Mathworks. From the [MATLAB Home Page](https://www.mathworks.com/products/matlab.html)
+
+> MATLAB combines a desktop environment tuned for iterative analysis and design processes with a programming language that expresses matrix and array mathematics directly. It includes the Live Editor for creating scripts that combine code, output, and formatted text in an executable notebook.
+
+* MATLAB tutorials and documentation are primary hosted by the company itself. For example:
+  * [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)
+  * Mathwork's [Help Center](https://www.mathworks.com/help/matlab/index.html?s_tid=hc_panel)
+* Many academic courses are also available via Googling.  
+  * This includes Dr Seth Danielson's UAF course `OCN F459 Computer Programming for Scientific Applications`. An example [syllabus from 2015](https://www.uaf.edu/uafgov/files/14-15_3-Trial_MSL-F494_revised-syllabus-10-10-2014.pdf) is available.
+
+---
+
+## Markdown {.markdown}
+
+![](../images/markdown_logo.png){width=75 fig-align="left"}
+
+Markdown is inline mark-up used for converting plain text files to HTML. It was developed with the goal of making documents that are easy to write and read, independent of the final formatting. The tags are simple and limited, so it is easy to learn. Different organizations have extended the original concept, so you will probably run across different version of it.
+
+* For short lists of tags, Google `markdown cheatsheet`. For example Cheatography's [The Ultimate Markdown Cheat Sheet](https://cheatography.com/lucbpz/cheat-sheets/the-ultimate-markdown/)
+* John Gruber's [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax) - the original from 2004.
+* [GitHub Flavored Markdown Spec](https://github.github.com/gfm/) - for README files and other documents rendered within a GitHub repository. It is extremely specific, but might contain tags that are not defined in other situations.
+* The Quarto publishing system uses [Pandoc’s Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) - an extended and slightly revised version of John Gruber’s Markdown syntax adapted for publishing.
+
+---
+
+## Fortran
+
+Fortran is a programming language optimized for arithmetic computations performed over large numeric arrays. It is used for large-scale numerical models such as the Regional Ocean Modeling System ([ROMS](https://www.myroms.org)]. Python's [Numpy](https://numpy.org/doc/stable/user/building.html) is mainly written in C and C++, but it can use pre-compiled Linear Algebra libraries (OpenBLAS or MKL) which might have been written in FORTRAN. R can also link to Fortran code.
+
+* There are different open source and commercial Fortran compilers, so it is best to look at the documentation for the one you are using. For instance:
+  * [GNU Fortran Compiler (gfortran)](https://gcc.gnu.org/fortran/)
+  * [Intel's Fortran Compiler (ifc) and Fortran Compiler Classic (ifort)](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html)
+* Our Coding Club's [Introduction to Fortran](https://ourcodingclub.github.io/tutorials/fortran-intro/)
+* fortran-lang.org's [Learn Fortran](https://fortran-lang.org/learn/) series
+* IDEs (analogous to MATLAB and RStudio) are [available for Fortran](https://fortran-lang.org/en/learn/os_setup/ides/) as well. It is highly recommended to use an IDE of some sort.
+

@@ -45,6 +45,9 @@ website:
       - href: workshops/2023_data_workshop.qmd
         text: Four Week REU Series, 2023
         icon: dot
+      - href: resources/programming.qmd
+        text: Programming Resources 
+        icon: dot
         
 
 
