@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>NGA LTER Education Documents - NGA LTER Programming Resources</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../workshops/2023_data_workshop.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../resources/programming.html">Programming Resources</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/ngalter.jpeg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://nga.lternet.edu" rel="" title="NGA LTER" class="quarto-navigation-tool px-1" aria-label="NGA LTER"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/nga-lter" rel="" title="NGA LTER GitHub Repo" class="quarto-navigation-tool px-1" aria-label="NGA LTER GitHub Repo"><i class="bi bi-github"></i></a>
+    <a href="https://www.instagram.com/nga.lter/" rel="" title="NGA LTER Instagram" class="quarto-navigation-tool px-1" aria-label="NGA LTER Instagram"><i class="bi bi-instagram"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://nga-lter.github.io/2021-01-04-ngalter/" class="sidebar-item-text sidebar-link"><i class="bi bi-dot" role="img">
+</i> 
+ <span class="menu-text">Four Day Carpentries Programming Workshop, 2021</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshops/2021_data_workshop.html" class="sidebar-item-text sidebar-link"><i class="bi bi-dot" role="img">
+</i> 
+ <span class="menu-text">Eight Week REU Series, 2021</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshops/2023_git_workshop.html" class="sidebar-item-text sidebar-link"><i class="bi bi-dot" role="img">
+</i> 
+ <span class="menu-text">One Day Git Workshop, 2023</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshops/2023_data_workshop.html" class="sidebar-item-text sidebar-link"><i class="bi bi-dot" role="img">
+</i> 
+ <span class="menu-text">Four Week REU Series, 2023</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources/programming.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-dot" role="img">
+</i> 
+ <span class="menu-text">Programming Resources</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#python" id="toc-python" class="nav-link active" data-scroll-target="#python">Python</a>
+  <ul class="collapse">
+  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a></li>
+  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
+  <li><a href="#relevant-packages" id="toc-relevant-packages" class="nav-link" data-scroll-target="#relevant-packages">Relevant Packages</a></li>
+  <li><a href="#additional-tools" id="toc-additional-tools" class="nav-link" data-scroll-target="#additional-tools">Additional Tools</a></li>
+  </ul></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  <li><a href="#matlab" id="toc-matlab" class="nav-link" data-scroll-target="#matlab">MATLAB</a></li>
+  <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown">Markdown</a></li>
+  <li><a href="#fortran" id="toc-fortran" class="nav-link" data-scroll-target="#fortran">Fortran</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/eldobbins/quarto-nga-docs/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">NGA LTER Programming Resources</h1>
+<p class="subtitle lead">Links to Documentation and Tutorials</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../images/python-logo.png" height="75" class="figure-img"></p>
+</figure>
+</div>
+<p>Python is essentially an open source programming language. But the Python ecosystem encompasses a dizzying constellation of tools, packages, disciplines, and organizations. The center is the Python Standard Library - a set of built-in functions and modules. But anyone can build extensions to that called <code>packages</code>.</p>
+<p>Because of these layers, it is sometimes difficult to know how to find information on the particular object type or function that you want to use. Another difficulty is the big disconnect between basic tutorials that cover Python syntax and the modern packages that are used to actually do the work. Those packages often are so abstract that you might not need to know much syntax to do some really cool things.</p>
+<p>It is suggested that you learn the rudiments of the language and learn to read documentation. Memorize the basic syntax to ease understanding more complicated code later. But don’t view Numpy and Matplotlib as the next step! You should jump to packages like to Pandas and Xarray as soon as you can, because they wrap most plotting and array manipulations in a much easier syntax.</p>
+<section id="documentation" class="level3">
+<h3 class="anchored" data-anchor-id="documentation">Documentation</h3>
+<ul>
+<li>Most recent <a href="https://docs.python.org/3/">Python Docs</a></li>
+<li><a href="https://docs.python.org/3/library/index.html">The Python Standard Library</a></li>
+</ul>
+</section>
+<section id="tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="tutorials">Tutorials</h3>
+<p>Python learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, ) offer Python classes.</p>
+<ul>
+<li><a href="https://wiki.python.org/moin/BeginnersGuide/NonProgrammers">Python for Non-Programmers</a></li>
+<li><a href="https://carpentries.org">The Carpentries</a> offers several Python tutorials
+<ul>
+<li><a href="https://datacarpentry.org/python-ecology-lesson/">Data Analysis and Visualization in Python for Ecologists</a>: jumps right into pandas</li>
+<li><a href="https://carpentries-lab.github.io/python-aos-lesson/">Python for Atmosphere and Ocean Scientists</a> is a community developed lesson specifically for Ocean and Atmospheric science using Xarray</li>
+<li><a href="http://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a>: using pandas and gapminder data</li>
+</ul></li>
+<li><a href="https://ourcodingclub.github.io/tutorials.html">Our Coding Club</a> has several science related Python tutorials</li>
+<li><a href="https://datalab.marine.rutgers.edu/2020/10/introduction-to-python-part-1/">Datalab at Rutgers University</a> has several oceanography specific tutorials prepared for REU students during the online 2020 season.</li>
+</ul>
+</section>
+<section id="relevant-packages" class="level3">
+<h3 class="anchored" data-anchor-id="relevant-packages">Relevant Packages</h3>
+<section id="general-data-manipulation" class="level4">
+<h4 class="anchored" data-anchor-id="general-data-manipulation">General Data Manipulation</h4>
+<ul>
+<li><a href="https://pandas.pydata.org">pandas</a>: data analysis and manipulation tool for 1D and 2D data - like for data easily stored in CSV (comma separated values) files and tables.
+<ul>
+<li><a href="https://pandas.pydata.org/docs/">pandas docs</a>. Pandas documentation is some of the best documentation around!</li>
+<li>pandas <a href="https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html">Getting started tutorials</a></li>
+</ul></li>
+<li><a href="https://xarray.dev">Xarray</a>: N-D labeled arrays and datasets in Python - like for netCDF files and model output.
+<ul>
+<li><a href="https://docs.xarray.dev/en/stable/">Xarray docs</a></li>
+<li><a href="https://tutorial.xarray.dev/intro.html">Xarray Tutorial</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="earth-sciences" class="level4">
+<h4 class="anchored" data-anchor-id="earth-sciences">Earth Sciences</h4>
+<ul>
+<li><a href="https://scitools.org.uk">Sci-tools</a>: powerful Python-based open-source tools for Earth scientists. Includes:
+<ul>
+<li>Cartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.</li>
+<li>cf-units is a wrapper class to support Unidata/UCAR UDUNITS-2</li>
+<li>Iris is a powerful tool used for manipulating multi-dimensional earth science data</li>
+</ul></li>
+</ul>
+</section>
+<section id="specifically-oceanographic" class="level4">
+<h4 class="anchored" data-anchor-id="specifically-oceanographic">Specifically Oceanographic</h4>
+<ul>
+<li><a href="https://teos-10.github.io/GSW-Python/">Gibbs Sea Water Toolbox</a>: Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10)</li>
+<li><a href="https://matplotlib.org/cmocean/">cmocean</a>: Beautiful colormaps for oceanography</li>
+<li>A stack of GitHub repos called <a href="https://github.com/pyoceans">POceans</a>: Python modules for oceanography
+<ul>
+<li>Includes list of packages called <a href="https://pyoceans.github.io/sea-py/">SEA-PY: Python Tools for Oceanographic Analysis</a></li>
+</ul></li>
+<li>Another list from the SOEST, University of Hawaii: <a href="https://currents.soest.hawaii.edu/ocn_data_analysis/basics.html#the-python-scientific-stack-for-oceanography">The Python scientific stack for oceanography</a></li>
+</ul>
+</section>
+</section>
+<section id="additional-tools" class="level3">
+<h3 class="anchored" data-anchor-id="additional-tools">Additional Tools</h3>
+<p>Several types of additional tools will make your Python experience much better. First, because packages make Python so powerful, proficiency with package management (pip, conda, mamba) is essential. Second, whereas MATLAB and R have a single primary integrated development environment (<a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE</a>), Python has multiple possibilities such as Spyder, PyCharm, or VSCode; using one of these makes debugging so much easier. Lastly, you can mix <a href="#markdown">Markdown</a> and Python in Jupyter Notebooks, or even use Jupyter Lab as an IDE.</p>
+<section id="package-management" class="level4">
+<h4 class="anchored" data-anchor-id="package-management">Package Management</h4>
+<ul>
+<li>Standard <a href="https://packaging.python.org/en/latest/tutorials/installing-packages/">Package Managment (pip)</a></li>
+<li><a href="https://docs.conda.io/projects/conda/en/latest/user-guide/index.html">Conda Users Guide</a> - package management using virtual environments</li>
+<li><a href="https://mamba.readthedocs.io/en/latest/index.html">Mamba Docs</a> - like conda but much faster for virtual environments with complicated packages and dependencies.</li>
+</ul>
+</section>
+<section id="ides" class="level4">
+<h4 class="anchored" data-anchor-id="ides">IDEs</h4>
+<ul>
+<li><a href="https://www.spyder-ide.org">Spyder</a> the Scientific Python Development Environment written in Python and distributed as a package.</li>
+<li><a href="https://www.jetbrains.com/pycharm/">PyCharm</a>, “The Python IDE for Professional Developers”</li>
+<li><a href="https://code.visualstudio.com/docs/languages/python">VSCode</a> is a code editor for multiple languages that has a Python extension.</li>
+</ul>
+</section>
+<section id="jupyter-notebooks" class="level4">
+<h4 class="anchored" data-anchor-id="jupyter-notebooks">Jupyter Notebooks</h4>
+<ul>
+<li><a href="https://jupyter-notebook.readthedocs.io/en/latest/">Jupyter Notebooks</a>, “A computational … shareable document that combines computer code, plain language descriptions, data, rich visualizations like 3D models, charts, graphs and figures, and interactive controls.”</li>
+<li><a href="https://jupyterlab.readthedocs.io/en/latest/">JupyterLab</a> is a “highly extensible, feature-rich notebook authoring application and editing environment”. That means you run Notebooks in Jupyter Lab.</li>
+<li><a href="https://colab.research.google.com">Google Colaboratory (Colab)</a>: write and execute Python in your browser. Not <em>exactly</em> Jupyter, but pretty close.</li>
+<li><a href="https://researchworkspace.com/intro/">Research Workspace</a>, the platform that NGA LTER uses for data management, includes <a href="https://researchworkspace.com/help/JupyterNotebooks.html">Jupyter Notebooks</a> within that environment.</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../images/Rlogo.png" height="65" class="figure-img"></p>
+</figure>
+</div>
+<p>R is a programming language. You can use it more easily within RStudio, an integrated development environment (<a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE</a>). From <a href="https://www.r-project.org/about.html">What is R?</a>:</p>
+<blockquote class="blockquote">
+<p>Many users think of R as a statistics system. We prefer to think of it as an environment within which statistical techniques are implemented. R can be extended (easily) via packages. There are about eight packages supplied with the R distribution and many more are available through the CRAN family of Internet sites covering a very wide range of modern statistics.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.r-project.org">The R Project for Statistical Computing</a></li>
+<li>Openscapes’ <a href="https://openscapes.github.io/series/core-lessons/coding-strategies.html">Coding strategies for future us</a></li>
+<li><a href="https://rstats.wtf">What They Forgot to Teach You About R</a></li>
+</ul>
+<hr>
+</section>
+<section id="matlab" class="level2">
+<h2 class="anchored" data-anchor-id="matlab">MATLAB</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../images/MATLAB-logo.png" height="100" class="figure-img"></p>
+</figure>
+</div>
+<p>MATLAB is a product of the company Mathworks. From the <a href="https://www.mathworks.com/products/matlab.html">MATLAB Home Page</a></p>
+<blockquote class="blockquote">
+<p>MATLAB combines a desktop environment tuned for iterative analysis and design processes with a programming language that expresses matrix and array mathematics directly. It includes the Live Editor for creating scripts that combine code, output, and formatted text in an executable notebook.</p>
+</blockquote>
+<ul>
+<li>MATLAB tutorials and documentation are primary hosted by the company itself. For example:
+<ul>
+<li><a href="https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted">MATLAB Onramp</a></li>
+<li>Mathwork’s <a href="https://www.mathworks.com/help/matlab/index.html?s_tid=hc_panel">Help Center</a></li>
+</ul></li>
+<li>Many academic courses are also available via Googling.
+<ul>
+<li>This includes Dr Seth Danielson’s UAF course <code>OCN F459 Computer Programming for Scientific Applications</code>. An example <a href="https://www.uaf.edu/uafgov/files/14-15_3-Trial_MSL-F494_revised-syllabus-10-10-2014.pdf">syllabus from 2015</a> is available.</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="markdown" class="level2 markdown">
+<h2 class="markdown anchored" data-anchor-id="markdown">Markdown</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../images/markdown_logo.png" class="img-fluid figure-img" width="75"></p>
+</figure>
+</div>
+<p>Markdown is inline mark-up used for converting plain text files to HTML. It was developed with the goal of making documents that are easy to write and read, independent of the final formatting. The tags are simple and limited, so it is easy to learn. Different organizations have extended the original concept, so you will probably run across different version of it.</p>
+<ul>
+<li>For short lists of tags, Google <code>markdown cheatsheet</code>. For example Cheatography’s <a href="https://cheatography.com/lucbpz/cheat-sheets/the-ultimate-markdown/">The Ultimate Markdown Cheat Sheet</a></li>
+<li>John Gruber’s <a href="https://daringfireball.net/projects/markdown/syntax">Markdown Syntax</a> - the original from 2004.</li>
+<li><a href="https://github.github.com/gfm/">GitHub Flavored Markdown Spec</a> - for README files and other documents rendered within a GitHub repository. It is extremely specific, but might contain tags that are not defined in other situations.</li>
+<li>The Quarto publishing system uses <a href="https://pandoc.org/MANUAL.html#pandocs-markdown">Pandoc’s Markdown</a> - an extended and slightly revised version of John Gruber’s Markdown syntax adapted for publishing.</li>
+</ul>
+<hr>
+</section>
+<section id="fortran" class="level2">
+<h2 class="anchored" data-anchor-id="fortran">Fortran</h2>
+<p>Fortran is a programming language optimized for arithmetic computations performed over large numeric arrays. It is used for large-scale numerical models such as the Regional Ocean Modeling System (<a href="https://www.myroms.org">ROMS</a>]. Python’s <a href="https://numpy.org/doc/stable/user/building.html">Numpy</a> is mainly written in C and C++, but it can use pre-compiled Linear Algebra libraries (OpenBLAS or MKL) which might have been written in FORTRAN. R can also link to Fortran code.</p>
+<ul>
+<li>There are different open source and commercial Fortran compilers, so it is best to look at the documentation for the one you are using. For instance:
+<ul>
+<li><a href="https://gcc.gnu.org/fortran/">GNU Fortran Compiler (gfortran)</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html">Intel’s Fortran Compiler (ifc) and Fortran Compiler Classic (ifort)</a></li>
+</ul></li>
+<li>Our Coding Club’s <a href="https://ourcodingclub.github.io/tutorials/fortran-intro/">Introduction to Fortran</a></li>
+<li>fortran-lang.org’s <a href="https://fortran-lang.org/learn/">Learn Fortran</a> series</li>
+<li>IDEs (analogous to MATLAB and RStudio) are <a href="https://fortran-lang.org/en/learn/os_setup/ides/">available for Fortran</a> as well. It is highly recommended to use an IDE of some sort.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../workshops/2023_data_workshop.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Four Week REU Series, 2023</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© CC-By NGA LTER, 2023</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This page is based on Openscape’s <a href="https://github.com/Openscapes/quarto-website-tutorial">Quarto Site Template</a> and built with <a href="https://quarto.org/">Quarto</a> .</div>
+  </div>
+</footer>
+
+
+
+</body></html>

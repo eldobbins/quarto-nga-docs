@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://eldobbins.github.io/quarto-nga-docs/workshops/2023_git_workshop.html</loc>
-    <lastmod>2023-07-20T06:07:35.714Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eldobbins.github.io/quarto-nga-docs/workshops/2021_data_workshop.html</loc>
-    <lastmod>2023-07-20T06:07:34.846Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eldobbins.github.io/quarto-nga-docs/slides/2023_reu_intro/2023_intro_slides.html</loc>
-    <lastmod>2023-07-20T06:07:33.078Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eldobbins.github.io/quarto-nga-docs/index.html</loc>
-    <lastmod>2023-07-20T06:07:29.430Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eldobbins.github.io/quarto-nga-docs/slides/2023_git/2023_git_slides.html</loc>
-    <lastmod>2023-07-20T06:07:33.558Z</lastmod>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/resources/programming.html</loc>
+    <lastmod>2023-07-23T00:07:10.855Z</lastmod>
   </url>
   <url>
     <loc>https://eldobbins.github.io/quarto-nga-docs/workshops/2023_data_workshop.html</loc>
-    <lastmod>2023-07-20T06:07:35.318Z</lastmod>
+    <lastmod>2023-07-23T00:07:09.563Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/slides/2023_git/2023_git_slides.html</loc>
+    <lastmod>2023-07-23T00:07:07.423Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/index.html</loc>
+    <lastmod>2023-07-23T00:07:01.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/slides/2023_reu_intro/2023_intro_slides.html</loc>
+    <lastmod>2023-07-23T00:07:06.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/workshops/2021_data_workshop.html</loc>
+    <lastmod>2023-07-23T00:07:09.043Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/workshops/2023_git_workshop.html</loc>
+    <lastmod>2023-07-23T00:07:10.023Z</lastmod>
   </url>
 </urlset>
