@@ -1,0 +1,210 @@
+---
+title: "Understanding Code"
+subtitle: "Week 2 of Data Science for NGA LTER REU Students"
+author: "Liz Dobbins"
+institute: NGA LTER / Axiom Data Science
+date: "July 27, 2023"
+format:
+  revealjs:
+    slide-number: true
+    _logo: ../../images/ngalter.jpeg
+    <!-- footer: Week 2 of Data Science for NGA LTER REU Students -->
+    header-logo: ../../images/ngalter.jpeg
+    theme: serif
+    embed-resources: true
+filters:
+  - reveal-header
+
+---
+
+## Last Week
+
+::: {.incremental}
+1. Open Science
+2. Scripting/Programming/Code
+3. Version Control
+4. Data Life Cycle
+:::
+
+::: {.notes}
+Open science provides the motivation for learning the skills. 
+
+This week we will explore programming with Python code. No judgment. It's just what I'm most familiar with.
+
+Data life cycle next week.
+:::
+
+## Why Coding?
+
+- Code replicates processing steps
+- Code reduces errors
+- Documented code creates a record of processing steps
+- Other people's code = less work! 
+  - Don't reinvent
+  - Use standard libraries when possible
+
+::: {.notes}
+
+:::
+
+
+## How Do You Learn Coding?
+
+- Learn the syntax
+  - [Tutorials](../../resources/programming.html)
+  - Documentation
+- Practice
+  - Really helps to have specific problem to solve
+- Look at examples
+
+> Programmers spend more time reading code than writing code
+
+::: {.notes}
+All the big online education companies (Coursera, Udemy, etc.) offer Python classes.  But you don't need all that.
+
+Often you won't have a choice about what code to start with. You will be handed something by your advisor or collaborators
+:::
+
+
+## What can cause problems?
+
+- Short term memory
+  - Limited to 2-6 items
+  - Works better when recognize patterns
+- Long term memory
+  - Practice
+  - Memorization
+- Working Memory
+  - Tricks
+
+::: {.notes}
+Memorizing syntax = a bore. But reduces the cognitive load when you look at code. You'll see recognizable chunks and can focus more on what the program is actually doing.
+:::
+
+
+## Extraneous Cognitive Load
+
+<br />
+
+```python
+6 + 8
+```
+
+<br />
+
+vs
+
+<br />
+
+```python
+a = 6
+b = 8
+
+z = a + b
+```
+
+::: {.notes}
+* This is the cognitive load that is added to the actual problem
+* First is the actual problem
+* Second requires you to make mental connections between the labels and the problem
+* Aspect of the problem that make the problem harder than it has to be
+* What is extraneous depends on the programmer. Depends on what they are familiar with.
+* The tricks solving problems is reducing the cognitive load
+:::
+
+## Trick 1:  Comments
+
+> Add human readable (non-executable) annotations within the code
+
+
+* Document code purpose and design
+* Should _not_ need to explain every single step
+
+
+## Trick 2: State Table
+
+> Write down the values of variable for each step in the code
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+```python
+x = 12
+y = 5
+z = y
+y = x
+x = z
+```
+:::
+
+::: {.column width="20%"}
+:::
+
+::: {.column width="40%"}
+
+|  x |  y |  z |
+|----|----|----|
+| 12 |    |    |
+| 12 | 5  |    |
+| 12 | 5  |  5 |
+| 12 | 12 |  5 |
+|  5 | 12 |  5 |
+:::
+
+::::
+
+::: {.notes}
+1. Make a list of all variables
+2. Create a table and give each variable its own column
+3. Row = part of execution
+4. Offload values from your working memory to the table
+:::
+
+
+## Trick 3: Refactoring
+
+> Transform code to "improve" the internal structure without changing the external behavior
+
+* Make a copy and change it
+* Replace syntax you don't understand
+* Perhaps revert changes once you figured it out (source control)
+
+
+## Trick 4: Self-Documenting Code
+
+> Write code using human-readable names and phrases that reflects the symbols' meaning
+
+* Descriptive variable names
+* Repeated tasks should be functions (with descriptive names)
+
+```python
+def swap_values(first_value, second_value):
+    holding = second_value
+    second_value = first_value
+    first_value = holding
+    ...
+```
+
+## Trick 5: Tell your troubles to a Duck
+
+> Or any little toy you have sitting on your desk
+
+![](images/jumbo_duck.jpeg){width=300}
+
+::: {.notes}
+Something about trying to describe the problem is very clarifying
+:::
+
+
+## Trick 6: Integrated Development Environment (IDE)
+
+> Application that provides tools for programming
+
+* Debugging
+* Tracking variables
+* Syntax checking
+* Autocomplete
+
+
+## Let's Take a Break

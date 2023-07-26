@@ -33,18 +33,17 @@ This four week workshop will introduce undergraduate students to current best pr
   * Data Life Cycle
 * Introduction of a Possible Team Project
 
-### Week 2: Tooling in More Depth
+### Week 2: Understanding Code
 
-* Scripts (R, Python, MATLAB, ...)
-  * Making code readable (reproducibility, again)
-  * Defensive programming, debugging, and testing
-* Version control with git
-* Sharing and Collaborating using GitHub
-* Quarto and publishing
-  * Markdown
-* Team project?
+* Interactive intro to Python
+* Understanding code (Slides)
+  * Learning code: why and how
+  * Where we run into trouble
+  * 6 Tips and Tricks
+* Practice best practices
+* Pandas demo (if time)
 
-### Week 3: Data Engineering
+### Week 3: Data Life Cycle
 
 * Data sources and archives
 * Metadata
@@ -61,6 +60,8 @@ This four week workshop will introduce undergraduate students to current best pr
 ## Slides
 
 [Open Science is Better Science](../slides/2023_reu_intro/2023_intro_slides.qmd)
+
+[Understanding Code](../slides/2023_understanding_code/2023_code_slides.qmd)
 
 Explore the slides following these [instructions for navigation](https://quarto.org/docs/presentations/revealjs/presenting.html).
 

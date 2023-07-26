@@ -4,6 +4,9 @@ subtitle: "Links to Documentation and Tutorials"
 ---
 
 
+A great book: [The Programmer's Brain](https://www.manning.com/books/the-programmers-brain), What every programmer needs to know about cognition, by Felienne Hermans.
+
+
 ## Python
 
 ![](../images/python-logo.png){height=75 fig-align="left"}
@@ -23,7 +26,7 @@ It is suggested that you learn the rudiments of the language and learn to read d
 
 ### Tutorials
 
-Python learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, ) offer Python classes.  
+Python learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, etc.) offer Python classes.  But you don't need a whole course to get started. Here are some online tutorials oriented to scientific programming or even oceanography specifically.
 
 * [Python for Non-Programmers](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers)
 * [The Carpentries](https://carpentries.org) offers several Python tutorials
@@ -76,6 +79,7 @@ Several types of additional tools will make your Python experience much better. 
 * [Spyder](https://www.spyder-ide.org) the Scientific Python Development Environment written in Python and distributed as a package.
 * [PyCharm](https://www.jetbrains.com/pycharm/), "The Python IDE for Professional Developers"
 * [VSCode](https://code.visualstudio.com/docs/languages/python) is a code editor for multiple languages that has a Python extension.
+* [PythonTutor](https://pythontutor.com) is not an IDE, but can be used to visualize code operation as the debugger of an IDE would. 
 
 #### Jupyter Notebooks
 
