@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://eldobbins.github.io/quarto-nga-docs/resources/programming.html</loc>
-    <lastmod>2023-07-23T00:07:10.855Z</lastmod>
+    <lastmod>2023-07-26T05:14:57.259Z</lastmod>
   </url>
   <url>
     <loc>https://eldobbins.github.io/quarto-nga-docs/workshops/2023_data_workshop.html</loc>
-    <lastmod>2023-07-23T00:07:09.563Z</lastmod>
+    <lastmod>2023-07-26T05:14:56.027Z</lastmod>
   </url>
   <url>
-    <loc>https://eldobbins.github.io/quarto-nga-docs/slides/2023_git/2023_git_slides.html</loc>
-    <lastmod>2023-07-23T00:07:07.423Z</lastmod>
-  </url>
-  <url>
-    <loc>https://eldobbins.github.io/quarto-nga-docs/index.html</loc>
-    <lastmod>2023-07-23T00:07:01.827Z</lastmod>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/slides/2023_understanding_code/2023_code_slides.html</loc>
+    <lastmod>2023-07-26T05:14:54.039Z</lastmod>
   </url>
   <url>
     <loc>https://eldobbins.github.io/quarto-nga-docs/slides/2023_reu_intro/2023_intro_slides.html</loc>
-    <lastmod>2023-07-23T00:07:06.795Z</lastmod>
+    <lastmod>2023-07-26T05:14:51.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/index.html</loc>
+    <lastmod>2023-07-26T05:14:47.243Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eldobbins.github.io/quarto-nga-docs/slides/2023_git/2023_git_slides.html</loc>
+    <lastmod>2023-07-26T05:14:52.083Z</lastmod>
   </url>
   <url>
     <loc>https://eldobbins.github.io/quarto-nga-docs/workshops/2021_data_workshop.html</loc>
-    <lastmod>2023-07-23T00:07:09.043Z</lastmod>
+    <lastmod>2023-07-26T05:14:55.491Z</lastmod>
   </url>
   <url>
     <loc>https://eldobbins.github.io/quarto-nga-docs/workshops/2023_git_workshop.html</loc>
-    <lastmod>2023-07-23T00:07:10.023Z</lastmod>
+    <lastmod>2023-07-26T05:14:56.467Z</lastmod>
   </url>
 </urlset>

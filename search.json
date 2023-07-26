@@ -4,14 +4,14 @@
     "href": "resources/programming.html",
     "title": "NGA LTER Programming Resources",
     "section": "",
-    "text": "Python is essentially an open source programming language. But the Python ecosystem encompasses a dizzying constellation of tools, packages, disciplines, and organizations. The center is the Python Standard Library - a set of built-in functions and modules. But anyone can build extensions to that called packages.\nBecause of these layers, it is sometimes difficult to know how to find information on the particular object type or function that you want to use. Another difficulty is the big disconnect between basic tutorials that cover Python syntax and the modern packages that are used to actually do the work. Those packages often are so abstract that you might not need to know much syntax to do some really cool things.\nIt is suggested that you learn the rudiments of the language and learn to read documentation. Memorize the basic syntax to ease understanding more complicated code later. But don’t view Numpy and Matplotlib as the next step! You should jump to packages like to Pandas and Xarray as soon as you can, because they wrap most plotting and array manipulations in a much easier syntax.\n\n\n\nMost recent Python Docs\nThe Python Standard Library\n\n\n\n\nPython learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, ) offer Python classes.\n\nPython for Non-Programmers\nThe Carpentries offers several Python tutorials\n\nData Analysis and Visualization in Python for Ecologists: jumps right into pandas\nPython for Atmosphere and Ocean Scientists is a community developed lesson specifically for Ocean and Atmospheric science using Xarray\nPlotting and Programming in Python: using pandas and gapminder data\n\nOur Coding Club has several science related Python tutorials\nDatalab at Rutgers University has several oceanography specific tutorials prepared for REU students during the online 2020 season.\n\n\n\n\n\n\n\npandas: data analysis and manipulation tool for 1D and 2D data - like for data easily stored in CSV (comma separated values) files and tables.\n\npandas docs. Pandas documentation is some of the best documentation around!\npandas Getting started tutorials\n\nXarray: N-D labeled arrays and datasets in Python - like for netCDF files and model output.\n\nXarray docs\nXarray Tutorial\n\n\n\n\n\n\nSci-tools: powerful Python-based open-source tools for Earth scientists. Includes:\n\nCartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.\ncf-units is a wrapper class to support Unidata/UCAR UDUNITS-2\nIris is a powerful tool used for manipulating multi-dimensional earth science data\n\n\n\n\n\n\nGibbs Sea Water Toolbox: Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10)\ncmocean: Beautiful colormaps for oceanography\nA stack of GitHub repos called POceans: Python modules for oceanography\n\nIncludes list of packages called SEA-PY: Python Tools for Oceanographic Analysis\n\nAnother list from the SOEST, University of Hawaii: The Python scientific stack for oceanography\n\n\n\n\n\nSeveral types of additional tools will make your Python experience much better. First, because packages make Python so powerful, proficiency with package management (pip, conda, mamba) is essential. Second, whereas MATLAB and R have a single primary integrated development environment (IDE), Python has multiple possibilities such as Spyder, PyCharm, or VSCode; using one of these makes debugging so much easier. Lastly, you can mix Markdown and Python in Jupyter Notebooks, or even use Jupyter Lab as an IDE.\n\n\n\nStandard Package Managment (pip)\nConda Users Guide - package management using virtual environments\nMamba Docs - like conda but much faster for virtual environments with complicated packages and dependencies.\n\n\n\n\n\nSpyder the Scientific Python Development Environment written in Python and distributed as a package.\nPyCharm, “The Python IDE for Professional Developers”\nVSCode is a code editor for multiple languages that has a Python extension.\n\n\n\n\n\nJupyter Notebooks, “A computational … shareable document that combines computer code, plain language descriptions, data, rich visualizations like 3D models, charts, graphs and figures, and interactive controls.”\nJupyterLab is a “highly extensible, feature-rich notebook authoring application and editing environment”. That means you run Notebooks in Jupyter Lab.\nGoogle Colaboratory (Colab): write and execute Python in your browser. Not exactly Jupyter, but pretty close.\nResearch Workspace, the platform that NGA LTER uses for data management, includes Jupyter Notebooks within that environment."
+    "text": "A great book: The Programmer’s Brain, What every programmer needs to know about cognition, by Felienne Hermans."
   },
   {
     "objectID": "resources/programming.html#python",
     "href": "resources/programming.html#python",
     "title": "NGA LTER Programming Resources",
-    "section": "",
-    "text": "Python is essentially an open source programming language. But the Python ecosystem encompasses a dizzying constellation of tools, packages, disciplines, and organizations. The center is the Python Standard Library - a set of built-in functions and modules. But anyone can build extensions to that called packages.\nBecause of these layers, it is sometimes difficult to know how to find information on the particular object type or function that you want to use. Another difficulty is the big disconnect between basic tutorials that cover Python syntax and the modern packages that are used to actually do the work. Those packages often are so abstract that you might not need to know much syntax to do some really cool things.\nIt is suggested that you learn the rudiments of the language and learn to read documentation. Memorize the basic syntax to ease understanding more complicated code later. But don’t view Numpy and Matplotlib as the next step! You should jump to packages like to Pandas and Xarray as soon as you can, because they wrap most plotting and array manipulations in a much easier syntax.\n\n\n\nMost recent Python Docs\nThe Python Standard Library\n\n\n\n\nPython learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, ) offer Python classes.\n\nPython for Non-Programmers\nThe Carpentries offers several Python tutorials\n\nData Analysis and Visualization in Python for Ecologists: jumps right into pandas\nPython for Atmosphere and Ocean Scientists is a community developed lesson specifically for Ocean and Atmospheric science using Xarray\nPlotting and Programming in Python: using pandas and gapminder data\n\nOur Coding Club has several science related Python tutorials\nDatalab at Rutgers University has several oceanography specific tutorials prepared for REU students during the online 2020 season.\n\n\n\n\n\n\n\npandas: data analysis and manipulation tool for 1D and 2D data - like for data easily stored in CSV (comma separated values) files and tables.\n\npandas docs. Pandas documentation is some of the best documentation around!\npandas Getting started tutorials\n\nXarray: N-D labeled arrays and datasets in Python - like for netCDF files and model output.\n\nXarray docs\nXarray Tutorial\n\n\n\n\n\n\nSci-tools: powerful Python-based open-source tools for Earth scientists. Includes:\n\nCartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.\ncf-units is a wrapper class to support Unidata/UCAR UDUNITS-2\nIris is a powerful tool used for manipulating multi-dimensional earth science data\n\n\n\n\n\n\nGibbs Sea Water Toolbox: Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10)\ncmocean: Beautiful colormaps for oceanography\nA stack of GitHub repos called POceans: Python modules for oceanography\n\nIncludes list of packages called SEA-PY: Python Tools for Oceanographic Analysis\n\nAnother list from the SOEST, University of Hawaii: The Python scientific stack for oceanography\n\n\n\n\n\nSeveral types of additional tools will make your Python experience much better. First, because packages make Python so powerful, proficiency with package management (pip, conda, mamba) is essential. Second, whereas MATLAB and R have a single primary integrated development environment (IDE), Python has multiple possibilities such as Spyder, PyCharm, or VSCode; using one of these makes debugging so much easier. Lastly, you can mix Markdown and Python in Jupyter Notebooks, or even use Jupyter Lab as an IDE.\n\n\n\nStandard Package Managment (pip)\nConda Users Guide - package management using virtual environments\nMamba Docs - like conda but much faster for virtual environments with complicated packages and dependencies.\n\n\n\n\n\nSpyder the Scientific Python Development Environment written in Python and distributed as a package.\nPyCharm, “The Python IDE for Professional Developers”\nVSCode is a code editor for multiple languages that has a Python extension.\n\n\n\n\n\nJupyter Notebooks, “A computational … shareable document that combines computer code, plain language descriptions, data, rich visualizations like 3D models, charts, graphs and figures, and interactive controls.”\nJupyterLab is a “highly extensible, feature-rich notebook authoring application and editing environment”. That means you run Notebooks in Jupyter Lab.\nGoogle Colaboratory (Colab): write and execute Python in your browser. Not exactly Jupyter, but pretty close.\nResearch Workspace, the platform that NGA LTER uses for data management, includes Jupyter Notebooks within that environment."
+    "section": "Python",
+    "text": "Python\n\n\n\n\n\nPython is essentially an open source programming language. But the Python ecosystem encompasses a dizzying constellation of tools, packages, disciplines, and organizations. The center is the Python Standard Library - a set of built-in functions and modules. But anyone can build extensions to that called packages.\nBecause of these layers, it is sometimes difficult to know how to find information on the particular object type or function that you want to use. Another difficulty is the big disconnect between basic tutorials that cover Python syntax and the modern packages that are used to actually do the work. Those packages often are so abstract that you might not need to know much syntax to do some really cool things.\nIt is suggested that you learn the rudiments of the language and learn to read documentation. Memorize the basic syntax to ease understanding more complicated code later. But don’t view Numpy and Matplotlib as the next step! You should jump to packages like to Pandas and Xarray as soon as you can, because they wrap most plotting and array manipulations in a much easier syntax.\n\nDocumentation\n\nMost recent Python Docs\nThe Python Standard Library\n\n\n\nTutorials\nPython learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, etc.) offer Python classes. But you don’t need a whole course to get started. Here are some online tutorials oriented to scientific programming or even oceanography specifically.\n\nPython for Non-Programmers\nThe Carpentries offers several Python tutorials\n\nData Analysis and Visualization in Python for Ecologists: jumps right into pandas\nPython for Atmosphere and Ocean Scientists is a community developed lesson specifically for Ocean and Atmospheric science using Xarray\nPlotting and Programming in Python: using pandas and gapminder data\n\nOur Coding Club has several science related Python tutorials\nDatalab at Rutgers University has several oceanography specific tutorials prepared for REU students during the online 2020 season.\n\n\n\nRelevant Packages\n\nGeneral Data Manipulation\n\npandas: data analysis and manipulation tool for 1D and 2D data - like for data easily stored in CSV (comma separated values) files and tables.\n\npandas docs. Pandas documentation is some of the best documentation around!\npandas Getting started tutorials\n\nXarray: N-D labeled arrays and datasets in Python - like for netCDF files and model output.\n\nXarray docs\nXarray Tutorial\n\n\n\n\nEarth Sciences\n\nSci-tools: powerful Python-based open-source tools for Earth scientists. Includes:\n\nCartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.\ncf-units is a wrapper class to support Unidata/UCAR UDUNITS-2\nIris is a powerful tool used for manipulating multi-dimensional earth science data\n\n\n\n\nSpecifically Oceanographic\n\nGibbs Sea Water Toolbox: Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10)\ncmocean: Beautiful colormaps for oceanography\nA stack of GitHub repos called POceans: Python modules for oceanography\n\nIncludes list of packages called SEA-PY: Python Tools for Oceanographic Analysis\n\nAnother list from the SOEST, University of Hawaii: The Python scientific stack for oceanography\n\n\n\n\nAdditional Tools\nSeveral types of additional tools will make your Python experience much better. First, because packages make Python so powerful, proficiency with package management (pip, conda, mamba) is essential. Second, whereas MATLAB and R have a single primary integrated development environment (IDE), Python has multiple possibilities such as Spyder, PyCharm, or VSCode; using one of these makes debugging so much easier. Lastly, you can mix Markdown and Python in Jupyter Notebooks, or even use Jupyter Lab as an IDE.\n\nPackage Management\n\nStandard Package Managment (pip)\nConda Users Guide - package management using virtual environments\nMamba Docs - like conda but much faster for virtual environments with complicated packages and dependencies.\n\n\n\nIDEs\n\nSpyder the Scientific Python Development Environment written in Python and distributed as a package.\nPyCharm, “The Python IDE for Professional Developers”\nVSCode is a code editor for multiple languages that has a Python extension.\nPythonTutor is not an IDE, but can be used to visualize code operation as the debugger of an IDE would.\n\n\n\nJupyter Notebooks\n\nJupyter Notebooks, “A computational … shareable document that combines computer code, plain language descriptions, data, rich visualizations like 3D models, charts, graphs and figures, and interactive controls.”\nJupyterLab is a “highly extensible, feature-rich notebook authoring application and editing environment”. That means you run Notebooks in Jupyter Lab.\nGoogle Colaboratory (Colab): write and execute Python in your browser. Not exactly Jupyter, but pretty close.\nResearch Workspace, the platform that NGA LTER uses for data management, includes Jupyter Notebooks within that environment."
   },
   {
     "objectID": "resources/programming.html#r",
@@ -46,7 +46,7 @@
     "href": "workshops/2023_data_workshop.html",
     "title": "Working with Data for REU Students, 2023",
     "section": "",
-    "text": "Tip\n\n\n\nThis is the syllabus from the data workshop presented to the 2023 cohort of Research Experience for Undergraduates (REU) students of the Northern Gulf of Alaska Long Term Ecological Research (NGA LTER) project. The slides were done in Quarto. The design of the curriculum is influenced by Openscapes. The workshop was held in person!\n\n\n\n\n\n\n\n\n\n\n\n\nThis four week workshop will introduce undergraduate students to current best practices regarding reproducible scientific research and data. Whereas the previous version of this workshop included Carpentries lessons for hands on practice, four weeks might not be long enough to to include those. Instead, the emphasis is on motivations and developing the culture of Open Science. This will hopefully enable further exploration of these topics by the students on their own. As such, this workshop is meant to be an introduction to topics students will confront if they continue as a graduate student or scientist.\n\n\n\n\n\n\nIntroductions\nOpen Science\n\nMistakes\nGrowth Mindset\n\nScaffolding\n\nScripting\nVersion control\nData Life Cycle\n\nIntroduction of a Possible Team Project\n\n\n\n\n\nScripts (R, Python, MATLAB, …)\n\nMaking code readable (reproducibility, again)\nDefensive programming, debugging, and testing\n\nVersion control with git\nSharing and Collaborating using GitHub\nQuarto and publishing\n\nMarkdown\n\nTeam project?\n\n\n\n\n\nData sources and archives\nMetadata\nFAIR\n\nFindable\nAccessible\nInteroperable\nReproducible\n\n\n\n\n\n\n\n\n\n\n\nSlides\n\n\n\nOpen Science is Better Science\nExplore the slides following these instructions for navigation.\n\n\n\n\n\n\nLiz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing."
+    "text": "Tip\n\n\n\nThis is the syllabus from the data workshop presented to the 2023 cohort of Research Experience for Undergraduates (REU) students of the Northern Gulf of Alaska Long Term Ecological Research (NGA LTER) project. The slides were done in Quarto. The design of the curriculum is influenced by Openscapes. The workshop was held in person!\n\n\n\n\n\n\n\n\n\n\n\n\nThis four week workshop will introduce undergraduate students to current best practices regarding reproducible scientific research and data. Whereas the previous version of this workshop included Carpentries lessons for hands on practice, four weeks might not be long enough to to include those. Instead, the emphasis is on motivations and developing the culture of Open Science. This will hopefully enable further exploration of these topics by the students on their own. As such, this workshop is meant to be an introduction to topics students will confront if they continue as a graduate student or scientist.\n\n\n\n\n\n\nIntroductions\nOpen Science\n\nMistakes\nGrowth Mindset\n\nScaffolding\n\nScripting\nVersion control\nData Life Cycle\n\nIntroduction of a Possible Team Project\n\n\n\n\n\nInteractive intro to Python\nUnderstanding code (Slides)\n\nLearning code: why and how\nWhere we run into trouble\n6 Tips and Tricks\n\nPractice best practices\nPandas demo (if time)\n\n\n\n\n\nData sources and archives\nMetadata\nFAIR\n\nFindable\nAccessible\nInteroperable\nReproducible\n\n\n\n\n\n\n\n\n\n\n\nSlides\n\n\n\nOpen Science is Better Science\nUnderstanding Code\nExplore the slides following these instructions for navigation.\n\n\n\n\n\n\nLiz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing."
   },
   {
     "objectID": "workshops/2023_data_workshop.html#a-four-week-workshop-presented-by-liz-dobbins",
@@ -67,7 +67,7 @@
     "href": "workshops/2023_data_workshop.html#topic-overview",
     "title": "Working with Data for REU Students, 2023",
     "section": "",
-    "text": "Introductions\nOpen Science\n\nMistakes\nGrowth Mindset\n\nScaffolding\n\nScripting\nVersion control\nData Life Cycle\n\nIntroduction of a Possible Team Project\n\n\n\n\n\nScripts (R, Python, MATLAB, …)\n\nMaking code readable (reproducibility, again)\nDefensive programming, debugging, and testing\n\nVersion control with git\nSharing and Collaborating using GitHub\nQuarto and publishing\n\nMarkdown\n\nTeam project?\n\n\n\n\n\nData sources and archives\nMetadata\nFAIR\n\nFindable\nAccessible\nInteroperable\nReproducible\n\n\n\n\n\n\n\n\n\n\n\nSlides\n\n\n\nOpen Science is Better Science\nExplore the slides following these instructions for navigation."
+    "text": "Introductions\nOpen Science\n\nMistakes\nGrowth Mindset\n\nScaffolding\n\nScripting\nVersion control\nData Life Cycle\n\nIntroduction of a Possible Team Project\n\n\n\n\n\nInteractive intro to Python\nUnderstanding code (Slides)\n\nLearning code: why and how\nWhere we run into trouble\n6 Tips and Tricks\n\nPractice best practices\nPandas demo (if time)\n\n\n\n\n\nData sources and archives\nMetadata\nFAIR\n\nFindable\nAccessible\nInteroperable\nReproducible\n\n\n\n\n\n\n\n\n\n\n\nSlides\n\n\n\nOpen Science is Better Science\nUnderstanding Code\nExplore the slides following these instructions for navigation."
   },
   {
     "objectID": "workshops/2023_data_workshop.html#instructor-information",
@@ -77,67 +77,88 @@
     "text": "Liz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing."
   },
   {
-    "objectID": "slides/2023_git/2023_git_slides.html#introductions",
-    "href": "slides/2023_git/2023_git_slides.html#introductions",
-    "title": "Version Control with git (and GitHub)",
-    "section": "Introductions",
-    "text": "Introductions\n\nAdrienne Canino\nLiz Dobbins\nChris Turner\nHelpers: Kasandra, Ian"
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#last-week",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#last-week",
+    "title": "Understanding Code",
+    "section": "Last Week",
+    "text": "Last Week\n\n\nOpen Science\nScripting/Programming/Code\nVersion Control\nData Life Cycle\n\n\n\nOpen science provides the motivation for learning the skills.\nThis week we will explore programming with Python code. No judgment. It’s just what I’m most familiar with.\nData life cycle next week."
   },
   {
-    "objectID": "slides/2023_git/2023_git_slides.html#you-will-need",
-    "href": "slides/2023_git/2023_git_slides.html#you-will-need",
-    "title": "Version Control with git (and GitHub)",
-    "section": "You will need …",
-    "text": "You will need …\nWe will demo, you will follow along, so you need:\n\ngit installed on local machine\nTerminal access (Powershell)\nText editor of your choice\nGithub.com account\nssh key generated on local machine and installed in GitHub account\n\netherpad link\n\nPause and use Zoom to see who has the tools installed to follow along\nhttps://swcarpentry.github.io/git-novice/index.html"
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#why-coding",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#why-coding",
+    "title": "Understanding Code",
+    "section": "Why Coding?",
+    "text": "Why Coding?\n\nCode replicates processing steps\nCode reduces errors\nDocumented code creates a record of processing steps\nOther people’s code = less work!\n\nDon’t reinvent\nUse standard libraries when possible"
   },
   {
-    "objectID": "slides/2023_git/2023_git_slides.html#what-is-version-control",
-    "href": "slides/2023_git/2023_git_slides.html#what-is-version-control",
-    "title": "Version Control with git (and GitHub)",
-    "section": "What is Version Control?",
-    "text": "What is Version Control?\n\nCredit: Allison Horst\nVersion control is a system that records changes to a file or set of files over time so you can recall a specific version later.\n\ncollaboration\nmanagement\ntransparency\nreproducibility"
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#how-do-you-learn-coding",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#how-do-you-learn-coding",
+    "title": "Understanding Code",
+    "section": "How Do You Learn Coding?",
+    "text": "How Do You Learn Coding?\n\nLearn the syntax\n\nTutorials\nDocumentation\n\nPractice\n\nReally helps to have specific problem to solve\n\nLook at examples\n\n\nProgrammers spend more time reading code than writing code\n\n\nAll the big online education companies (Coursera, Udemy, etc.) offer Python classes. But you don’t need all that.\nOften you won’t have a choice about what code to start with. You will be handed something by your advisor or collaborators"
   },
   {
-    "objectID": "slides/2023_git/2023_git_slides.html#as-a-collaboration-tool",
-    "href": "slides/2023_git/2023_git_slides.html#as-a-collaboration-tool",
-    "title": "Version Control with git (and GitHub)",
-    "section": "As a Collaboration Tool…",
-    "text": "As a Collaboration Tool…\n\nCredit: Allison Horst\n\nreuse existing tools\ntools get better over time as people contribute\nability to adapt to your own needs (forks and branches)"
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#what-can-cause-problems",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#what-can-cause-problems",
+    "title": "Understanding Code",
+    "section": "What can cause problems?",
+    "text": "What can cause problems?\n\nShort term memory\n\nLimited to 2-6 items\nWorks better when recognize patterns\n\nLong term memory\n\nPractice\nMemorization\n\nWorking Memory\n\nTricks\n\n\n\nMemorizing syntax = a bore. But reduces the cognitive load when you look at code. You’ll see recognizable chunks and can focus more on what the program is actually doing."
   },
   {
-    "objectID": "slides/2023_git/2023_git_slides.html#what-are-git-and-github",
-    "href": "slides/2023_git/2023_git_slides.html#what-are-git-and-github",
-    "title": "Version Control with git (and GitHub)",
-    "section": "What are git and GitHub?",
-    "text": "What are git and GitHub?\n\n\n\n\n\n\n\ngit\nGitHub\n\n\n\n\nVersion control system\nWeb-based hosting system for git repositories\n\n\nPrimarily command line\nGraphical User Interface (GUI)\n\n\nFunctions without GitHub\nMost popular of several hosting options\n\n\nHelps you and future-you\nPublishing and project management"
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#extraneous-cognitive-load",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#extraneous-cognitive-load",
+    "title": "Understanding Code",
+    "section": "Extraneous Cognitive Load",
+    "text": "Extraneous Cognitive Load\n\n6 + 8\n\nvs\n\na = 6\nb = 8\n\nz = a + b\n\n\nThis is the cognitive load that is added to the actual problem\nFirst is the actual problem\nSecond requires you to make mental connections between the labels and the problem\nAspect of the problem that make the problem harder than it has to be\nWhat is extraneous depends on the programmer. Depends on what they are familiar with.\nThe tricks solving problems is reducing the cognitive load"
   },
   {
-    "objectID": "slides/2023_git/2023_git_slides.html#adriennes-notes",
-    "href": "slides/2023_git/2023_git_slides.html#adriennes-notes",
-    "title": "Version Control with git (and GitHub)",
-    "section": "Adrienne’s notes",
-    "text": "Adrienne’s notes\n\n\nHave powershell and gitbash ready\nTouch is ‘ni’ in powershell\nThe SSH is indeed tricky, I can demo it quickly but it can’t be a part of our code-along, I think it would just be way too intense\nThen the NGA IM docs as a demo in clone, push, pull\n\n\n\n\nVersion Control with git (and GitHub)"
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#trick-1-comments",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#trick-1-comments",
+    "title": "Understanding Code",
+    "section": "Trick 1: Comments",
+    "text": "Trick 1: Comments\n\nAdd human readable (non-executable) annotations within the code\n\n\nDocument code purpose and design\nShould not need to explain every single step"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NGA LTER Data Education Documents",
-    "section": "",
-    "text": "An important element of the Northern Gulf of Alaska Long Term Ecological Research (NGA LTER) project is our series of trainings on the topics of data management and reprodicibility."
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#trick-2-state-table",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#trick-2-state-table",
+    "title": "Understanding Code",
+    "section": "Trick 2: State Table",
+    "text": "Trick 2: State Table\n\nWrite down the values of variable for each step in the code\n\n\n\nx = 12\ny = 5\nz = y\ny = x\nx = z\n\n\n\n\n\n\nx\ny\nz\n\n\n\n\n12\n\n\n\n\n12\n5\n\n\n\n12\n5\n5\n\n\n12\n12\n5\n\n\n5\n12\n5\n\n\n\n\n\n\n\nMake a list of all variables\nCreate a table and give each variable its own column\nRow = part of execution\nOffload values from your working memory to the table"
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "NGA LTER Data Education Documents",
-    "section": "",
-    "text": "An important element of the Northern Gulf of Alaska Long Term Ecological Research (NGA LTER) project is our series of trainings on the topics of data management and reprodicibility."
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#trick-3-refactoring",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#trick-3-refactoring",
+    "title": "Understanding Code",
+    "section": "Trick 3: Refactoring",
+    "text": "Trick 3: Refactoring\n\nTransform code to “improve” the internal structure without changing the external behavior\n\n\nMake a copy and change it\nReplace syntax you don’t understand\nPerhaps revert changes once you figured it out (source control)"
   },
   {
-    "objectID": "index.html#what-are-these-documents",
-    "href": "index.html#what-are-these-documents",
-    "title": "NGA LTER Data Education Documents",
-    "section": "What are these documents?",
-    "text": "What are these documents?\nIn this centralized location, you can find presentation slides and other materials from our training workshops. Some workshops, such as the 2021’s Beginning Scientific Programming for NGA LTER Graduate Students and eight week REU workshop have their own dedicated GitHub repos. The slides for other workshops are included here.\nLink to this repo."
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#trick-4-self-documenting-code",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#trick-4-self-documenting-code",
+    "title": "Understanding Code",
+    "section": "Trick 4: Self-Documenting Code",
+    "text": "Trick 4: Self-Documenting Code\n\nWrite code using human-readable names and phrases that reflects the symbols’ meaning\n\n\nDescriptive variable names\nRepeated tasks should be functions (with descriptive names)\n\ndef swap_values(first_value, second_value):\n    holding = second_value\n    second_value = first_value\n    first_value = holding\n    ..."
+  },
+  {
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#trick-5-tell-your-troubles-to-a-duck",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#trick-5-tell-your-troubles-to-a-duck",
+    "title": "Understanding Code",
+    "section": "Trick 5: Tell your troubles to a Duck",
+    "text": "Trick 5: Tell your troubles to a Duck\n\nOr any little toy you have sitting on your desk\n\n\n\nSomething about trying to describe the problem is very clarifying"
+  },
+  {
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#trick-6-integrated-development-environment-ide",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#trick-6-integrated-development-environment-ide",
+    "title": "Understanding Code",
+    "section": "Trick 6: Integrated Development Environment (IDE)",
+    "text": "Trick 6: Integrated Development Environment (IDE)\n\nApplication that provides tools for programming\n\n\nDebugging\nTracking variables\nSyntax checking\nAutocomplete"
+  },
+  {
+    "objectID": "slides/2023_understanding_code/2023_code_slides.html#lets-take-a-break",
+    "href": "slides/2023_understanding_code/2023_code_slides.html#lets-take-a-break",
+    "title": "Understanding Code",
+    "section": "Let’s Take a Break",
+    "text": "Let’s Take a Break"
   },
   {
     "objectID": "slides/2023_reu_intro/2023_intro_slides.html#goals-why-are-we-doing-this",
@@ -215,6 +236,69 @@
     "title": "Open Science is Better Science",
     "section": "Potential Team Project",
     "text": "Potential Team Project\n\nUse Quarto and GitHub and Markdown to reflect on your REU\nContent/Form of the document is limitless\nGet a DOI (Digital Object Identifier) for later use\n\nGraduate school applications\nJob applications\n\nTour of this Quarto project\n\n\n\nTotally dependent on if you guys have interest and capacity\n\nCould include code/plots/interactive bits (if you use R or Python)\nInclude images"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NGA LTER Data Education Documents",
+    "section": "",
+    "text": "An important element of the Northern Gulf of Alaska Long Term Ecological Research (NGA LTER) project is our series of trainings on the topics of data management and reprodicibility."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "NGA LTER Data Education Documents",
+    "section": "",
+    "text": "An important element of the Northern Gulf of Alaska Long Term Ecological Research (NGA LTER) project is our series of trainings on the topics of data management and reprodicibility."
+  },
+  {
+    "objectID": "index.html#what-are-these-documents",
+    "href": "index.html#what-are-these-documents",
+    "title": "NGA LTER Data Education Documents",
+    "section": "What are these documents?",
+    "text": "What are these documents?\nIn this centralized location, you can find presentation slides and other materials from our training workshops. Some workshops, such as the 2021’s Beginning Scientific Programming for NGA LTER Graduate Students and eight week REU workshop have their own dedicated GitHub repos. The slides for other workshops are included here.\nLink to this repo."
+  },
+  {
+    "objectID": "slides/2023_git/2023_git_slides.html#introductions",
+    "href": "slides/2023_git/2023_git_slides.html#introductions",
+    "title": "Version Control with git (and GitHub)",
+    "section": "Introductions",
+    "text": "Introductions\n\nAdrienne Canino\nLiz Dobbins\nChris Turner\nHelpers: Kasandra, Ian"
+  },
+  {
+    "objectID": "slides/2023_git/2023_git_slides.html#you-will-need",
+    "href": "slides/2023_git/2023_git_slides.html#you-will-need",
+    "title": "Version Control with git (and GitHub)",
+    "section": "You will need …",
+    "text": "You will need …\nWe will demo, you will follow along, so you need:\n\ngit installed on local machine\nTerminal access (Powershell)\nText editor of your choice\nGithub.com account\nssh key generated on local machine and installed in GitHub account\n\netherpad link\n\nPause and use Zoom to see who has the tools installed to follow along\nhttps://swcarpentry.github.io/git-novice/index.html"
+  },
+  {
+    "objectID": "slides/2023_git/2023_git_slides.html#what-is-version-control",
+    "href": "slides/2023_git/2023_git_slides.html#what-is-version-control",
+    "title": "Version Control with git (and GitHub)",
+    "section": "What is Version Control?",
+    "text": "What is Version Control?\n\nCredit: Allison Horst\nVersion control is a system that records changes to a file or set of files over time so you can recall a specific version later.\n\ncollaboration\nmanagement\ntransparency\nreproducibility"
+  },
+  {
+    "objectID": "slides/2023_git/2023_git_slides.html#as-a-collaboration-tool",
+    "href": "slides/2023_git/2023_git_slides.html#as-a-collaboration-tool",
+    "title": "Version Control with git (and GitHub)",
+    "section": "As a Collaboration Tool…",
+    "text": "As a Collaboration Tool…\n\nCredit: Allison Horst\n\nreuse existing tools\ntools get better over time as people contribute\nability to adapt to your own needs (forks and branches)"
+  },
+  {
+    "objectID": "slides/2023_git/2023_git_slides.html#what-are-git-and-github",
+    "href": "slides/2023_git/2023_git_slides.html#what-are-git-and-github",
+    "title": "Version Control with git (and GitHub)",
+    "section": "What are git and GitHub?",
+    "text": "What are git and GitHub?\n\n\n\n\n\n\n\ngit\nGitHub\n\n\n\n\nVersion control system\nWeb-based hosting system for git repositories\n\n\nPrimarily command line\nGraphical User Interface (GUI)\n\n\nFunctions without GitHub\nMost popular of several hosting options\n\n\nHelps you and future-you\nPublishing and project management"
+  },
+  {
+    "objectID": "slides/2023_git/2023_git_slides.html#adriennes-notes",
+    "href": "slides/2023_git/2023_git_slides.html#adriennes-notes",
+    "title": "Version Control with git (and GitHub)",
+    "section": "Adrienne’s notes",
+    "text": "Adrienne’s notes\n\n\nHave powershell and gitbash ready\nTouch is ‘ni’ in powershell\nThe SSH is indeed tricky, I can demo it quickly but it can’t be a part of our code-along, I think it would just be way too intense\nThen the NGA IM docs as a demo in clone, push, pull\n\n\n\n\nVersion Control with git (and GitHub)"
   },
   {
     "objectID": "workshops/2021_data_workshop.html",
