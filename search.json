@@ -259,6 +259,69 @@
     "text": "What are these documents?\nIn this centralized location, you can find presentation slides and other materials from our training workshops. Some workshops, such as the 2021’s Beginning Scientific Programming for NGA LTER Graduate Students and eight week REU workshop have their own dedicated GitHub repos. The slides for other workshops are included here.\nLink to this repo."
   },
   {
+    "objectID": "notebooks/Python_intro.html",
+    "href": "notebooks/Python_intro.html",
+    "title": "Intro to Python",
+    "section": "",
+    "text": "Contains brief coverage of:\n\nPrinting cell outputs (and comments)\nVariables and type\nStructured Data Types\nControl structures (loops)\nFunctions\n\nDesigned to take ~1 hour when combined with the Colab Welcome Notebook"
+  },
+  {
+    "objectID": "notebooks/Python_intro.html#printing-cell-outputs-and-comments",
+    "href": "notebooks/Python_intro.html#printing-cell-outputs-and-comments",
+    "title": "Intro to Python",
+    "section": "Printing cell outputs (and comments)",
+    "text": "Printing cell outputs (and comments)\n\noutput of last line will print to output cell\nprint() function also\ncomments don’t print\n\n\n1\n2\n3\n\n3\n\n\n\nprint(1)\nprint(2)\nprint(3)\n\n1\n2\n3\n\n\n\n# print(1)  command + / toggles line comment\n# print(2)\n# print(3)"
+  },
+  {
+    "objectID": "notebooks/Python_intro.html#can-do-simple-math",
+    "href": "notebooks/Python_intro.html#can-do-simple-math",
+    "title": "Intro to Python",
+    "section": "Can do simple math",
+    "text": "Can do simple math\nUse it like a calculator\n\n1 + 2\n\n3\n\n\n\n4.6705 ** 3.8\n\n349.60757209480767"
+  },
+  {
+    "objectID": "notebooks/Python_intro.html#define-variables",
+    "href": "notebooks/Python_intro.html#define-variables",
+    "title": "Intro to Python",
+    "section": "Define variables",
+    "text": "Define variables\nDefine variables with =. The variable is on the left and the value is on the right.\nEach of these has a type that defines what you can do with it. In other words, they are objects that have attributes and behavior. The list of built in types is at https://docs.python.org/3/library/stdtypes.html. Includes\n\nint = integer number\nfloat = floating point number\nboolean = True or False\nstring = a list of characters\n\nStart with the example from the Colab Welcome.\n\nseconds_in_a_day = 24 * 60 * 60\nseconds_in_a_day\n\n86400\n\n\n\n# this is the type of our variable\n\ntype(seconds_in_a_day)\n\nint\n\n\n\n# here is a more interesting type that has lots of functions and methods\n\ntext = \"YOU DO NOT NEED TO SHOUT\"\n\nprint(len(text))     # this is function - argument could be many objects\n\nprint(text.lower())  # this is method - specific to a single object\n\nprint(text + '!!!!') # can do math\n      \ntype(text)\n\n24\nyou do not need to shout\nYOU DO NOT NEED TO SHOUT!!!!\n\n\nstr\n\n\n\n# do they mix?  Nope. This causes an error.\n\n#text + seconds_in_a_day"
+  },
+  {
+    "objectID": "notebooks/Python_intro.html#values-of-variables-can-change",
+    "href": "notebooks/Python_intro.html#values-of-variables-can-change",
+    "title": "Intro to Python",
+    "section": "Values of variables can change",
+    "text": "Values of variables can change\nWell, of course they can. That is what programming is for.\nBut not everything that looks like an assignment is.\nAnd using a Notebook, the order of operations matters. You can go back and run previous cells over again and get some very strange looking output. Try running these 3 cells in various orders.\n\nseconds = 12\nseconds\n\n12\n\n\n\nseconds = seconds + 60\nseconds\n\n72\n\n\n\nprint(seconds + 6)\nseconds\n\n78\n\n\n72"
+  },
+  {
+    "objectID": "notebooks/Python_intro.html#structured-data",
+    "href": "notebooks/Python_intro.html#structured-data",
+    "title": "Intro to Python",
+    "section": "Structured data",
+    "text": "Structured data\nIn addition to variables with a single value, there are other types that have multiple elements. The main ones are\n\nList\nDictionaries\n(Set)\n(Tuple)\n(Range)\n\n\n# List = multiple values in order\n# This is a new type\n\ncasts = [12, 13, 14]\nprint(type(casts))\n\n&lt;class 'list'&gt;\n\n\n\n# They can contain values of multiple types\n\ncruise = ['SKQ202010S', 12, 7.5, 32.666, 'Summer']\nprint(cruise)\n\n['SKQ202010S', 12, 7.5, 32.666, 'Summer']\n\n\n\n# Can retrieve values by using the indices, just like strings\n# can get a subset of the list back\n\nprint(cruise[0])\nprint(cruise[:3])\nprint(cruise[-3:])\n\nSKQ202010S\n['SKQ202010S', 12, 7.5]\n[7.5, 32.666, 'Summer']\n\n\n\n# Dictionaries are collections of key:value pairs\n\n\ncruise = {'id': 'SKQ202010S',\n          'temperature': 7.5,\n          'cast': 12}\n          \nprint(cruise)\n\n{'id': 'SKQ202010S', 'temperature': 7.5, 'cast': 12}\n\n\n\n# To retrieve values, use the key\n\ncruise['id']\n\n'SKQ202010S'\n\n\n\n# unlike lists, they are unordered. This causes an error\n\n#cruise[0]"
+  },
+  {
+    "objectID": "notebooks/Python_intro.html#data-workflows-and-automation",
+    "href": "notebooks/Python_intro.html#data-workflows-and-automation",
+    "title": "Intro to Python",
+    "section": "Data Workflows and Automation",
+    "text": "Data Workflows and Automation\nThere are other commands that control the order of operations in a program. These can repeat commands or choose some commands instead of others.\n\nMany of these rely on Booleans: tests of True/False.\nNote the use of : to signify the start of a loop\nNote the use of 4 spaces to indicate the commands that will be repeated\n\nMATLAB uses the keyword end instead of indentations\n\n\n\n# \"while\" repeats an operation while a condition is True\n\nn = 0\nwhile n &lt; 5:\n    print(n)\n    n = n + 1\n\n0\n1\n2\n3\n4\n\n\n\n# \"for\" will do the same repetition, with a different syntax\n\nfor n in [0, 1, 2, 3, 4]:\n    print(n)\n\n0\n1\n2\n3\n4\n\n\n\n# \"if\" will determine whether to execute or not\n\nfor n in [0, 1, 2, 3, 4]:\n    if n % 2 == 0:  # if n is even\n        print(n)\n    else:           # if n is odd\n        print('hi!')\n\n0\nhi!\n2\nhi!\n4"
+  },
+  {
+    "objectID": "notebooks/Python_intro.html#functions",
+    "href": "notebooks/Python_intro.html#functions",
+    "title": "Intro to Python",
+    "section": "Functions",
+    "text": "Functions\nFor more complicated sets of instructions that will be repeated, or logic you want to keep separated for whatever reason, you can define a function. print() and len() are examples of functions we have already used.\n\nStart the function definition with keyword def. Again there is an :\nAgain, indented with spaces\nWhen call it, need parentheses even if there are no arguments\n\n\ndef is_even(n):\n    if n % 2 == 0:\n        return True\n    else:\n        return False\n\nfor n in [0, 1, 2, 3, 4]:\n    if is_even(n):     # call our function\n        print(n)\n        print()        # parentheses without arguments\n\n0\n\n2\n\n4"
+  },
+  {
+    "objectID": "notebooks/Python_intro.html#packages",
+    "href": "notebooks/Python_intro.html#packages",
+    "title": "Intro to Python",
+    "section": "Packages",
+    "text": "Packages\nBy default, you have access to only a few object classes and functions. But you can import (and create) packages and modules that enable many many more. To do this, use import. This is typically at the beginning of your Notebook or script, but it can go anywhere.\nThe Standard Python Library (https://docs.python.org/3/library/) contains those that are supported by and installed with Python. math is in the Standard Library. See https://docs.python.org/3/library/math.html for more information on it.\nOthers are available via pip or conda. numpy and pandas are examples of these.\n\nimport math\n\nmath.log10(10)\n\n1.0\n\n\n\nfrom math import pi, cos\n\ncos(pi)\n\n-1.0"
+  },
+  {
     "objectID": "slides/2023_git/2023_git_slides.html#introductions",
     "href": "slides/2023_git/2023_git_slides.html#introductions",
     "title": "Version Control with git (and GitHub)",
