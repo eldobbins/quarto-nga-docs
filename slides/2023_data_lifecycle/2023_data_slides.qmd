@@ -22,10 +22,8 @@ filters:
 1. Intro to Programming (Python)
 2. Programming Best Practices
 3. Practiced Best Practices
+  a. [Best Practices Solution](../../notebooks/best_practices_exercise.html)
 :::
-
-[Best Practices Solution](../../notebooks/best_practices_exercise.html)
-
 
 ::: {.notes}
 One hour bare-bones Python lesson in Colab
