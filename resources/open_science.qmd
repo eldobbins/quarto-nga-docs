@@ -1,0 +1,31 @@
+---
+title: "NGA LTER Open Science Resources"
+subtitle: "Links to More Information"
+---
+
+## Open Science / Reproducible Research
+
+* [Open Science now: A systematic literature review for an integrated definition](https://doi.org/10.1016/j.jbusres.2017.12.043). Ruben Vicente-Saez & Clara Martinez-Fuentes, 2018
+* [The Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/), 
+
+
+## Data Life Cycle etc.
+
+* DataONE's [Best Practices of Data Management](https://dataoneorg.github.io/Education/bestpractices/)
+
+
+## Process
+
+* Karl Broman's [Initial Steps toward Reproducible Research](https://kbroman.org/steps2rr/)
+* Journal Articles
+  * Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK. "Good enough practices in scientific computing". *PLoS Comput Biol.* 2017 Jun 22;13(6):e1005510. doi: [10.1371/journal.pcbi.1005510](https://doi.org/10.1371%2Fjournal.pcbi.1005510). PMID: 28640806; PMCID: PMC5480810.
+
+
+## Project and Data Organization
+
+* Openscape's [Tidy data for efficiency, reproducibility, and collaboration](https://openscapes.org/blog/2020-10-12-tidy-data/)
+* Data Carpentries 
+  * [Data Carpentry for Biologists: Tidy Data](https://datacarpentry.org/semester-biology/materials/tidy-data/)
+  * [Data Organization in Spreadsheets for Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/)
+* Journal Articles
+  * Wickham, H (2014). "Tidy Data". *Journal of Statistical Software* 58 (10). [jstatsoft.org/v59/i10/](jstatsoft.org/v59/i10/)

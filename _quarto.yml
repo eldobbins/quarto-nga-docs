@@ -48,6 +48,9 @@ website:
       - href: resources/programming.qmd
         text: Programming Resources 
         icon: dot
+      - href: resources/open_science.qmd
+        text: Open Science Resources 
+        icon: dot
         
 
 

@@ -1,0 +1,188 @@
+---
+title: "Tidy Data, Archives, Metadata"
+subtitle: "Week 3 of Data Science for NGA LTER REU Students"
+author: "Liz Dobbins"
+institute: NGA LTER / Axiom Data Science
+date: "Aug. 3, 2023"
+format:
+  revealjs:
+    slide-number: true
+    _logo: ../../images/ngalter.jpeg
+    header-logo: ../../images/ngalter.jpeg
+    theme: serif
+    embed-resources: true
+filters:
+  - reveal-header
+
+---
+
+## Last Week
+
+::: {.incremental}
+1. Intro to Programming (Python)
+2. Programming Best Practices
+3. Practiced Best Practices
+:::
+
+::: {.notes}
+One hour bare-bones Python lesson in Colab
+
+The Notebooks have been copied to this website.
+:::
+
+## Today: Data Life Cycle
+
+![Data Life Cycle. [DataONE Best Practices](https://dataoneorg.github.io/Education/bestpractices/)](images/dataone_data_life_cycle.png)
+
+
+::: {.notes}
+In the first week, I introduced this concept. Been described many different ways.
+
+While you are collecting and preparing data for your own analysis, are also thinking of future uses. etc.
+:::
+
+
+## Signature Data Example
+
+* Plan: LTER has extensive data management
+* Collect: Multiple PIs, many years
+* Assure: Best quality. Nicely formatted.
+* Describe: There is some metadata on the [NGA website](https://nga.lternet.edu/data-overview/signature-datasets/)
+* Preserve: Website includes [links to archive](https://search.dataone.org/portals/NGALTER/Data)
+* Discover: Informal
+* Integrate: Future possibilities
+* Analyze: Python/pandas
+
+::: {.notes}
+* Used an NGA LTER Signature Dataset
+* How does that illustrate the Data Life Cycle?
+:::
+
+
+---
+
+![[Julie Lowndes and Allison Horst](https://openscapes.org/blog/2020-10-12-tidy-data/)](https://openscapes.org/img/blog/tidydata/tidydata_2.jpg)
+
+::: {.notes}
+Tidy Data !!!
+:::
+
+## Definition of "Tidy Data"
+
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
+
+Wickham, Hadley. 2014. “Tidy Data”. *Journal of Statistical Software* 59 (10):1-23. [https://doi.org/10.18637/jss.v059.i10](https://doi.org/10.18637/jss.v059.i10).
+
+::: {.notes}
+Oh, that's easy! What isn't tidy?
+:::
+
+## Example of Messy Data
+
+A table of weights:
+
+|Plot | SpeciesA | SpeciesB |
+|-----|----------|----------|
+|1 | 3.5 | 1.2 |
+|2 | 2.8 | 4.2 |
+
+<br />
+
+* the variable `weight` is found in multiple columns
+* there are 2 types of species so those are actually variables
+  * variables should not be used as column headers
+
+::: {.notes}
+Messy doesn't mean it isn't useful. Can be good in paper. Efficient storage.
+
+However, it is hard for a computer to extract data from this table
+:::
+
+## Same Data, Now Tidy
+
+|Plot | Species | Weight  |
+|-----|---------|---------|
+| 1 | A | 3.5 |
+| 1 | B | 1.2 |
+| 2 | A | 2.8 |
+| 2 | B | 4.2 |
+
+<br />
+
+* each row is an observation
+* queries are easier
+
+::: {.notes}
+* `Plot==1 & Species==A`
+:::
+
+
+## Other Qualities of Tidy Data
+
+* Units not included in cell with data
+* Visual indicators (colors, fonts, italics) not used
+* Consistent names
+* Consistent date formats
+* Short, descriptive language (avoid abstract codes)
+* Use consistent value for missing data (NaN, -9999, blank OK for pandas)
+* Data uniquely assigned to a single table
+* Saved as plain text format (CSV)
+
+
+## Tidy Data Exercise
+
+Do the exercise on [Improving Messy Data]  **DECIDE WHICH** 
+(https://docs.google.com/spreadsheets/d/13YnHHDjG_xEaoHJqvVI2U8cJeNgeOyAJ/edit?usp=drive_link&ouid=110380986407305818312&rtpof=true&sd=true)
+or 
+
+
+## How to Discover Data
+
+<br />
+
+| Scientific Data Discovery | Streaming Video |
+|---------------------------|-----------------|
+Informally between researchers | your mom's emails |
+Via project or institutional website | a link at nbc.com |
+Referenced in a journal article | via a blog review |
+Discoverable within specialized archive, or repository | AppleTV or Netflix |
+Discoverable in network of repositories (Data.gov, DataONE) |   IMDB |
+
+
+
+::: {.notes}
+* advisor -> student
+* need search terms
+* within text (methods, acknowledgment) or as data citation
+* Become familiar with relevant repositories
+* Last is easiest if you don't know what you are looking for
+
+`Signature` data is a cross between the first 2
+
+
+:::
+
+
+## LTER Data Management Requirements
+
+* Sites must have an integrated Information Management System
+* Data available online within two years of collection
+* Sites should submit data to repositories
+* Long-term (>20 years) usability of data
+* Metadata
+
+## Where is NGA LTER Data Available?
+
+> https://search.dataone.org/portals/NGALTER/About-the-Data-Catalog
+
+* Portal supplied by DataONE
+* Data and Metadata is stored in the `Research Workspace` member node
+
+#### Let's explore it
+
+
+## Data Portal Powered by Metadata
+
+

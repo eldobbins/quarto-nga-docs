@@ -24,46 +24,68 @@ This four week workshop will introduce undergraduate students to current best pr
 ### Week 1: Open Science is Better Science
 
 * Introductions
-* Open Science
+* Open Science (Slide)
   * Mistakes
   * Growth Mindset
-* Scaffolding
-  * Scripting
-  * Version control
-  * Data Life Cycle
-* Introduction of a Possible Team Project
+  * Scaffolding to enable Open Science
+    * Scripting
+    * Version control
+    * Data Life Cycle
+* ~~Introduction of a Possible Team Project~~
 
 ### Week 2: Understanding Code
 
-* Interactive intro to Python
+* Interactive intro to Python (Colab Notebook)
 * Understanding code (Slides)
   * Learning code: why and how
   * Where we run into trouble
   * 6 Tips and Tricks
-* Practice best practices
-* Pandas demo (if time)
+* Practice best practices (Colab Notebook)
 
 ### Week 3: Data Life Cycle
 
-* Data sources and archives
-* Metadata
+* Pandas demo using GAK1 temperature (Colab Notebook)
+* Tidy data (Slides)
+  * Data Carpentry's [Improving Messy Data (Tidy Data)](https://datacarpentry.org/semester-biology/exercises/Tidy-data-improving-messy-data-SQL/)
+* Data sources and archives (Slides)
+  * DataONE data discovery activity
+
+
+### Week 4: TBD
+
 * FAIR
   * Findable
   * Accessible
   * Interoperable
   * Reproducible
 
-### Week 4: TBD
-
 
 ::: {.callout-warning icon="false"}
-## Slides
+## Materials
+
+### Slides
 
 [Open Science is Better Science](../slides/2023_reu_intro/2023_intro_slides.qmd)
 
 [Understanding Code](../slides/2023_understanding_code/2023_code_slides.qmd)
 
+[Tidy Data, Archives, Metadata](../slides/2023_data_lifecycle/2023_data_slides.qmd)
+
 Explore the slides following these [instructions for navigation](https://quarto.org/docs/presentations/revealjs/presenting.html).
+
+### Notebooks (rendered as HTML)
+
+[Python in One Hour](../notebooks/Python_intro.ipynb)
+
+[Practice Best Practices](../notebooks/best_practices_exercise.ipynb)
+
+[Pandas and LTER Signature Datasets](../notebooks/pandas_signature_dataset.ipynb)
+
+You can download unrendered Notebooks at https://github.com/eldobbins/quarto-nga-docs/tree/main/notebooks
+
+### Hands-on Activities
+
+[Data Discovery using DataONE](../resources/data_discovery_handson.qmd)
 
 :::
 

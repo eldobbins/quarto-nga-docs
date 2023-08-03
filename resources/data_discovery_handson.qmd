@@ -1,0 +1,103 @@
+---
+title: "Data Discovery Using DataONE"
+subtitle: "Hands-on Activity"
+---
+
+## Introduction
+
+The [Long-Term Ecological Research](https://lternet.edu/about/) (LTER) program requires all sites to publish their data online within two years of collection. However, they do not specify _where_ data must be published. The [Northern Gulf of Alaska](https://nga.lternet.edu) (NGA LTER) has chosen to publish our data via Axiom Data Science's [Research Workspace](https://researchworkspace.com/intro/) (RW). Most other LTER sites submit their data to the [Environmental Data Initiative](https://portal.edirepository.org/nis/home.jsp) (EDI). How could an investigator find datasets from multiple LTER sites if they are archived in different repositories?
+
+[DataONE](https://dataone.org/) (Data Observation Network for Earth) was established by the National Science Foundation as a network of data repositories. Data collections are held in separate "member" repositories but are searchable via a central interface. A list of member institutions is found at https://www.dataone.org/network/. Both Research Workspace and EDI are members of DataONE, so it would be a good search interface for investigators hoping to integrate data from several LTER sites.
+
+This hands-on activity provides a chance to explore the DataONE portal and to practice searching for data using their interface.
+
+![](https://portal.edirepository.org/nis/images/EDI-logo-300DPI_5.png)
+![](https://researchworkspace.com/intro/images/logo.png){width=400}
+![](https://edirepository.org/static/images/dataone-logo.png){width=200}
+
+## Instructions
+
+### Plan your search
+
+Think about the research you are doing. Think of a way you could expand it to include existing datasets. Some examples might include:
+
+* Comparing your data to other LTER sites such as:
+  * California Curent (LTER Site CCE)
+  * Beaufort Lagoon (BLE)
+  * Terrestrial Alaskan sites like Arctic LTER (ARC) or Bonanza Creek (BNZ)
+* Comparing your data to other research programs or organizations in the Gulf of Alaska, such as: 
+  * GLOBEC
+  * Alaska Department of Fish and Game
+  * USGS
+  * Exxon Valdeze Oil Spill Trustee Council (EVOS)
+  * NOAA
+* Data of the same type or collected using the same instrument, using terms like:
+  * glider
+  * grazing rates
+  * trace metals
+
+Before you start searching, take a moment to describe what you are looking for:
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+And underline keywords that might be useful.
+
+### Look for Datasets
+
+Go to https://search.dataone.org/data and experiment with different searches:
+
+1. Try searching by `Location`, `Data Attribute`, `Member Node`, etc.
+2. Try using the `free text search`
+3. Use the author names from one search result to perhaps turn up more relevant records
+
+### Result Evaluation
+
+During your search, pick 3 results and record relevant information about them here:
+
+
+#### Dataset 1
+
+**Dataset title**
+
+**Authors/Organization**
+
+**Description**
+
+**Download format (if available)**
+
+**How did you find it?**
+
+
+#### Dataset 2
+
+**Dataset title**
+
+**Authors/Organization**
+
+**Description**
+
+**Download format (if available)**
+
+**How did you find it?**
+
+
+#### Dataset 3
+
+**Dataset title**
+
+**Authors/Organization**
+
+**Description**
+
+**Download format (if available)**
+
+**How did you find it?**
+
+
+### Final Questions for Discussion
+
+* Could you find what you wanted?
+* What metadata was important in your search?
+* Did you end up focusing on a single repository?  Would it have been faster to go directly there?
