@@ -1,52 +1,66 @@
 [
   {
-    "objectID": "resources/programming.html",
-    "href": "resources/programming.html",
-    "title": "NGA LTER Programming Resources",
+    "objectID": "resources/open_science.html",
+    "href": "resources/open_science.html",
+    "title": "NGA LTER Open Science Resources",
     "section": "",
-    "text": "A great book: The Programmer’s Brain, What every programmer needs to know about cognition, by Felienne Hermans."
+    "text": "Open Science now: A systematic literature review for an integrated definition. Ruben Vicente-Saez & Clara Martinez-Fuentes, 2018\nThe Open Science Training Handbook,"
   },
   {
-    "objectID": "resources/programming.html#python",
-    "href": "resources/programming.html#python",
-    "title": "NGA LTER Programming Resources",
-    "section": "Python",
-    "text": "Python\n\n\n\n\n\nPython is essentially an open source programming language. But the Python ecosystem encompasses a dizzying constellation of tools, packages, disciplines, and organizations. The center is the Python Standard Library - a set of built-in functions and modules. But anyone can build extensions to that called packages.\nBecause of these layers, it is sometimes difficult to know how to find information on the particular object type or function that you want to use. Another difficulty is the big disconnect between basic tutorials that cover Python syntax and the modern packages that are used to actually do the work. Those packages often are so abstract that you might not need to know much syntax to do some really cool things.\nIt is suggested that you learn the rudiments of the language and learn to read documentation. Memorize the basic syntax to ease understanding more complicated code later. But don’t view Numpy and Matplotlib as the next step! You should jump to packages like to Pandas and Xarray as soon as you can, because they wrap most plotting and array manipulations in a much easier syntax.\n\nDocumentation\n\nMost recent Python Docs\nThe Python Standard Library\n\n\n\nTutorials\nPython learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, etc.) offer Python classes. But you don’t need a whole course to get started. Here are some online tutorials oriented to scientific programming or even oceanography specifically.\n\nPython for Non-Programmers\nThe Carpentries offers several Python tutorials\n\nData Analysis and Visualization in Python for Ecologists: jumps right into pandas\nPython for Atmosphere and Ocean Scientists is a community developed lesson specifically for Ocean and Atmospheric science using Xarray\nPlotting and Programming in Python: using pandas and gapminder data\n\nOur Coding Club has several science related Python tutorials\nDatalab at Rutgers University has several oceanography specific tutorials prepared for REU students during the online 2020 season.\n\n\n\nRelevant Packages\n\nGeneral Data Manipulation\n\npandas: data analysis and manipulation tool for 1D and 2D data - like for data easily stored in CSV (comma separated values) files and tables.\n\npandas docs. Pandas documentation is some of the best documentation around!\npandas Getting started tutorials\n\nXarray: N-D labeled arrays and datasets in Python - like for netCDF files and model output.\n\nXarray docs\nXarray Tutorial\n\n\n\n\nEarth Sciences\n\nSci-tools: powerful Python-based open-source tools for Earth scientists. Includes:\n\nCartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.\ncf-units is a wrapper class to support Unidata/UCAR UDUNITS-2\nIris is a powerful tool used for manipulating multi-dimensional earth science data\n\n\n\n\nSpecifically Oceanographic\n\nGibbs Sea Water Toolbox: Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10)\ncmocean: Beautiful colormaps for oceanography\nA stack of GitHub repos called POceans: Python modules for oceanography\n\nIncludes list of packages called SEA-PY: Python Tools for Oceanographic Analysis\n\nAnother list from the SOEST, University of Hawaii: The Python scientific stack for oceanography\n\n\n\n\nAdditional Tools\nSeveral types of additional tools will make your Python experience much better. First, because packages make Python so powerful, proficiency with package management (pip, conda, mamba) is essential. Second, whereas MATLAB and R have a single primary integrated development environment (IDE), Python has multiple possibilities such as Spyder, PyCharm, or VSCode; using one of these makes debugging so much easier. Lastly, you can mix Markdown and Python in Jupyter Notebooks, or even use Jupyter Lab as an IDE.\n\nPackage Management\n\nStandard Package Managment (pip)\nConda Users Guide - package management using virtual environments\nMamba Docs - like conda but much faster for virtual environments with complicated packages and dependencies.\n\n\n\nIDEs\n\nSpyder the Scientific Python Development Environment written in Python and distributed as a package.\nPyCharm, “The Python IDE for Professional Developers”\nVSCode is a code editor for multiple languages that has a Python extension.\nPythonTutor is not an IDE, but can be used to visualize code operation as the debugger of an IDE would.\n\n\n\nJupyter Notebooks\n\nJupyter Notebooks, “A computational … shareable document that combines computer code, plain language descriptions, data, rich visualizations like 3D models, charts, graphs and figures, and interactive controls.”\nJupyterLab is a “highly extensible, feature-rich notebook authoring application and editing environment”. That means you run Notebooks in Jupyter Lab.\nGoogle Colaboratory (Colab): write and execute Python in your browser. Not exactly Jupyter, but pretty close.\nResearch Workspace, the platform that NGA LTER uses for data management, includes Jupyter Notebooks within that environment."
+    "objectID": "resources/open_science.html#open-science-reproducible-research",
+    "href": "resources/open_science.html#open-science-reproducible-research",
+    "title": "NGA LTER Open Science Resources",
+    "section": "",
+    "text": "Open Science now: A systematic literature review for an integrated definition. Ruben Vicente-Saez & Clara Martinez-Fuentes, 2018\nThe Open Science Training Handbook,"
   },
   {
-    "objectID": "resources/programming.html#r",
-    "href": "resources/programming.html#r",
-    "title": "NGA LTER Programming Resources",
-    "section": "R",
-    "text": "R\n\n\n\n\n\nR is a programming language. You can use it more easily within RStudio, an integrated development environment (IDE). From What is R?:\n\nMany users think of R as a statistics system. We prefer to think of it as an environment within which statistical techniques are implemented. R can be extended (easily) via packages. There are about eight packages supplied with the R distribution and many more are available through the CRAN family of Internet sites covering a very wide range of modern statistics.\n\n\nThe R Project for Statistical Computing\nOpenscapes’ Coding strategies for future us\nWhat They Forgot to Teach You About R"
+    "objectID": "resources/open_science.html#data-life-cycle-etc.",
+    "href": "resources/open_science.html#data-life-cycle-etc.",
+    "title": "NGA LTER Open Science Resources",
+    "section": "Data Life Cycle etc.",
+    "text": "Data Life Cycle etc.\n\nDataONE’s Best Practices of Data Management"
   },
   {
-    "objectID": "resources/programming.html#matlab",
-    "href": "resources/programming.html#matlab",
-    "title": "NGA LTER Programming Resources",
-    "section": "MATLAB",
-    "text": "MATLAB\n\n\n\n\n\nMATLAB is a product of the company Mathworks. From the MATLAB Home Page\n\nMATLAB combines a desktop environment tuned for iterative analysis and design processes with a programming language that expresses matrix and array mathematics directly. It includes the Live Editor for creating scripts that combine code, output, and formatted text in an executable notebook.\n\n\nMATLAB tutorials and documentation are primary hosted by the company itself. For example:\n\nMATLAB Onramp\nMathwork’s Help Center\n\nMany academic courses are also available via Googling.\n\nThis includes Dr Seth Danielson’s UAF course OCN F459 Computer Programming for Scientific Applications. An example syllabus from 2015 is available."
+    "objectID": "resources/open_science.html#process",
+    "href": "resources/open_science.html#process",
+    "title": "NGA LTER Open Science Resources",
+    "section": "Process",
+    "text": "Process\n\nKarl Broman’s Initial Steps toward Reproducible Research\nJournal Articles\n\nWilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK. “Good enough practices in scientific computing”. PLoS Comput Biol. 2017 Jun 22;13(6):e1005510. doi: 10.1371/journal.pcbi.1005510. PMID: 28640806; PMCID: PMC5480810."
   },
   {
-    "objectID": "resources/programming.html#markdown",
-    "href": "resources/programming.html#markdown",
-    "title": "NGA LTER Programming Resources",
-    "section": "Markdown",
-    "text": "Markdown\n\n\n\n\n\nMarkdown is inline mark-up used for converting plain text files to HTML. It was developed with the goal of making documents that are easy to write and read, independent of the final formatting. The tags are simple and limited, so it is easy to learn. Different organizations have extended the original concept, so you will probably run across different version of it.\n\nFor short lists of tags, Google markdown cheatsheet. For example Cheatography’s The Ultimate Markdown Cheat Sheet\nJohn Gruber’s Markdown Syntax - the original from 2004.\nGitHub Flavored Markdown Spec - for README files and other documents rendered within a GitHub repository. It is extremely specific, but might contain tags that are not defined in other situations.\nThe Quarto publishing system uses Pandoc’s Markdown - an extended and slightly revised version of John Gruber’s Markdown syntax adapted for publishing."
+    "objectID": "resources/open_science.html#project-and-data-organization",
+    "href": "resources/open_science.html#project-and-data-organization",
+    "title": "NGA LTER Open Science Resources",
+    "section": "Project and Data Organization",
+    "text": "Project and Data Organization\n\nOpenscape’s Tidy data for efficiency, reproducibility, and collaboration\nData Carpentries\n\nData Carpentry for Biologists: Tidy Data\nData Organization in Spreadsheets for Ecologists\n\nJournal Articles\n\nWickham, H (2014). “Tidy Data”. Journal of Statistical Software 58 (10). jstatsoft.org/v59/i10/"
   },
   {
-    "objectID": "resources/programming.html#fortran",
-    "href": "resources/programming.html#fortran",
-    "title": "NGA LTER Programming Resources",
-    "section": "Fortran",
-    "text": "Fortran\nFortran is a programming language optimized for arithmetic computations performed over large numeric arrays. It is used for large-scale numerical models such as the Regional Ocean Modeling System (ROMS]. Python’s Numpy is mainly written in C and C++, but it can use pre-compiled Linear Algebra libraries (OpenBLAS or MKL) which might have been written in FORTRAN. R can also link to Fortran code.\n\nThere are different open source and commercial Fortran compilers, so it is best to look at the documentation for the one you are using. For instance:\n\nGNU Fortran Compiler (gfortran)\nIntel’s Fortran Compiler (ifc) and Fortran Compiler Classic (ifort)\n\nOur Coding Club’s Introduction to Fortran\nfortran-lang.org’s Learn Fortran series\nIDEs (analogous to MATLAB and RStudio) are available for Fortran as well. It is highly recommended to use an IDE of some sort."
+    "objectID": "resources/data_discovery_handson.html",
+    "href": "resources/data_discovery_handson.html",
+    "title": "Data Discovery Using DataONE",
+    "section": "",
+    "text": "The Long-Term Ecological Research (LTER) program requires all sites to publish their data online within two years of collection. However, they do not specify where data must be published. The Northern Gulf of Alaska (NGA LTER) has chosen to publish our data via Axiom Data Science’s Research Workspace (RW). Most other LTER sites submit their data to the Environmental Data Initiative (EDI). How could an investigator find datasets from multiple LTER sites if they are archived in different repositories?\nDataONE (Data Observation Network for Earth) was established by the National Science Foundation as a network of data repositories. Data collections are held in separate “member” repositories but are searchable via a central interface. A list of member institutions is found at https://www.dataone.org/network/. Both Research Workspace and EDI are members of DataONE, so it would be a good search interface for investigators hoping to integrate data from several LTER sites.\nThis hands-on activity provides a chance to explore the DataONE portal and to practice searching for data using their interface."
+  },
+  {
+    "objectID": "resources/data_discovery_handson.html#introduction",
+    "href": "resources/data_discovery_handson.html#introduction",
+    "title": "Data Discovery Using DataONE",
+    "section": "",
+    "text": "The Long-Term Ecological Research (LTER) program requires all sites to publish their data online within two years of collection. However, they do not specify where data must be published. The Northern Gulf of Alaska (NGA LTER) has chosen to publish our data via Axiom Data Science’s Research Workspace (RW). Most other LTER sites submit their data to the Environmental Data Initiative (EDI). How could an investigator find datasets from multiple LTER sites if they are archived in different repositories?\nDataONE (Data Observation Network for Earth) was established by the National Science Foundation as a network of data repositories. Data collections are held in separate “member” repositories but are searchable via a central interface. A list of member institutions is found at https://www.dataone.org/network/. Both Research Workspace and EDI are members of DataONE, so it would be a good search interface for investigators hoping to integrate data from several LTER sites.\nThis hands-on activity provides a chance to explore the DataONE portal and to practice searching for data using their interface."
+  },
+  {
+    "objectID": "resources/data_discovery_handson.html#instructions",
+    "href": "resources/data_discovery_handson.html#instructions",
+    "title": "Data Discovery Using DataONE",
+    "section": "Instructions",
+    "text": "Instructions\n\nPlan your search\nThink about the research you are doing. Think of a way you could expand it to include existing datasets. Some examples might include:\n\nComparing your data to other LTER sites such as:\n\nCalifornia Curent (LTER Site CCE)\nBeaufort Lagoon (BLE)\nTerrestrial Alaskan sites like Arctic LTER (ARC) or Bonanza Creek (BNZ)\n\nComparing your data to other research programs or organizations in the Gulf of Alaska, such as:\n\nGLOBEC\nAlaska Department of Fish and Game\nUSGS\nExxon Valdeze Oil Spill Trustee Council (EVOS)\nNOAA\n\nData of the same type or collected using the same instrument, using terms like:\n\nglider\ngrazing rates\ntrace metals\n\n\nBefore you start searching, take a moment to describe what you are looking for:      And underline keywords that might be useful.\n\n\nLook for Datasets\nGo to https://search.dataone.org/data and experiment with different searches:\n\nTry searching by Location, Data Attribute, Member Node, etc.\nTry using the free text search\nUse the author names from one search result to perhaps turn up more relevant records\n\n\n\nResult Evaluation\nDuring your search, pick 3 results and record relevant information about them here:\n\nDataset 1\nDataset title\nAuthors/Organization\nDescription\nDownload format (if available)\nHow did you find it?\n\n\nDataset 2\nDataset title\nAuthors/Organization\nDescription\nDownload format (if available)\nHow did you find it?\n\n\nDataset 3\nDataset title\nAuthors/Organization\nDescription\nDownload format (if available)\nHow did you find it?\n\n\n\nFinal Questions for Discussion\n\nCould you find what you wanted?\nWhat metadata was important in your search?\nDid you end up focusing on a single repository? Would it have been faster to go directly there?"
   },
   {
     "objectID": "workshops/2023_data_workshop.html",
     "href": "workshops/2023_data_workshop.html",
     "title": "Working with Data for REU Students, 2023",
     "section": "",
-    "text": "Tip\n\n\n\nThis is the syllabus from the data workshop presented to the 2023 cohort of Research Experience for Undergraduates (REU) students of the Northern Gulf of Alaska Long Term Ecological Research (NGA LTER) project. The slides were done in Quarto. The design of the curriculum is influenced by Openscapes. The workshop was held in person!\n\n\n\n\n\n\n\n\n\n\n\n\nThis four week workshop will introduce undergraduate students to current best practices regarding reproducible scientific research and data. Whereas the previous version of this workshop included Carpentries lessons for hands on practice, four weeks might not be long enough to to include those. Instead, the emphasis is on motivations and developing the culture of Open Science. This will hopefully enable further exploration of these topics by the students on their own. As such, this workshop is meant to be an introduction to topics students will confront if they continue as a graduate student or scientist.\n\n\n\n\n\n\nIntroductions\nOpen Science\n\nMistakes\nGrowth Mindset\n\nScaffolding\n\nScripting\nVersion control\nData Life Cycle\n\nIntroduction of a Possible Team Project\n\n\n\n\n\nInteractive intro to Python\nUnderstanding code (Slides)\n\nLearning code: why and how\nWhere we run into trouble\n6 Tips and Tricks\n\nPractice best practices\nPandas demo (if time)\n\n\n\n\n\nData sources and archives\nMetadata\nFAIR\n\nFindable\nAccessible\nInteroperable\nReproducible\n\n\n\n\n\n\n\n\n\n\n\nSlides\n\n\n\nOpen Science is Better Science\nUnderstanding Code\nExplore the slides following these instructions for navigation.\n\n\n\n\n\n\nLiz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing."
+    "text": "Tip\n\n\n\nThis is the syllabus from the data workshop presented to the 2023 cohort of Research Experience for Undergraduates (REU) students of the Northern Gulf of Alaska Long Term Ecological Research (NGA LTER) project. The slides were done in Quarto. The design of the curriculum is influenced by Openscapes. The workshop was held in person!\n\n\n\n\n\n\n\n\n\n\n\n\nThis four week workshop will introduce undergraduate students to current best practices regarding reproducible scientific research and data. Whereas the previous version of this workshop included Carpentries lessons for hands on practice, four weeks might not be long enough to to include those. Instead, the emphasis is on motivations and developing the culture of Open Science. This will hopefully enable further exploration of these topics by the students on their own. As such, this workshop is meant to be an introduction to topics students will confront if they continue as a graduate student or scientist.\n\n\n\n\n\n\nIntroductions\nOpen Science (Slide)\n\nMistakes\nGrowth Mindset\nScaffolding to enable Open Science\n\nScripting\nVersion control\nData Life Cycle\n\n\nIntroduction of a Possible Team Project\n\n\n\n\n\nInteractive intro to Python (Colab Notebook)\nUnderstanding code (Slides)\n\nLearning code: why and how\nWhere we run into trouble\n6 Tips and Tricks\n\nPractice best practices (Colab Notebook)\n\n\n\n\n\nPandas demo using GAK1 temperature (Colab Notebook)\nTidy data (Slides)\n\nData Carpentry’s Improving Messy Data (Tidy Data)\n\nData sources and archives (Slides)\n\nDataONE data discovery activity\n\n\n\n\n\n\nFAIR\n\nFindable\nAccessible\nInteroperable\nReproducible\n\n\n\n\n\n\n\n\nMaterials\n\n\n\n\n\nOpen Science is Better Science\nUnderstanding Code\nTidy Data, Archives, Metadata\nExplore the slides following these instructions for navigation.\n\n\n\nPython in One Hour\nPractice Best Practices\nPandas and LTER Signature Datasets\nYou can download unrendered Notebooks at https://github.com/eldobbins/quarto-nga-docs/tree/main/notebooks\n\n\n\nData Discovery using DataONE\n\n\n\n\n\n\n\nLiz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing."
   },
   {
     "objectID": "workshops/2023_data_workshop.html#a-four-week-workshop-presented-by-liz-dobbins",
@@ -67,7 +81,7 @@
     "href": "workshops/2023_data_workshop.html#topic-overview",
     "title": "Working with Data for REU Students, 2023",
     "section": "",
-    "text": "Introductions\nOpen Science\n\nMistakes\nGrowth Mindset\n\nScaffolding\n\nScripting\nVersion control\nData Life Cycle\n\nIntroduction of a Possible Team Project\n\n\n\n\n\nInteractive intro to Python\nUnderstanding code (Slides)\n\nLearning code: why and how\nWhere we run into trouble\n6 Tips and Tricks\n\nPractice best practices\nPandas demo (if time)\n\n\n\n\n\nData sources and archives\nMetadata\nFAIR\n\nFindable\nAccessible\nInteroperable\nReproducible\n\n\n\n\n\n\n\n\n\n\n\nSlides\n\n\n\nOpen Science is Better Science\nUnderstanding Code\nExplore the slides following these instructions for navigation."
+    "text": "Introductions\nOpen Science (Slide)\n\nMistakes\nGrowth Mindset\nScaffolding to enable Open Science\n\nScripting\nVersion control\nData Life Cycle\n\n\nIntroduction of a Possible Team Project\n\n\n\n\n\nInteractive intro to Python (Colab Notebook)\nUnderstanding code (Slides)\n\nLearning code: why and how\nWhere we run into trouble\n6 Tips and Tricks\n\nPractice best practices (Colab Notebook)\n\n\n\n\n\nPandas demo using GAK1 temperature (Colab Notebook)\nTidy data (Slides)\n\nData Carpentry’s Improving Messy Data (Tidy Data)\n\nData sources and archives (Slides)\n\nDataONE data discovery activity\n\n\n\n\n\n\nFAIR\n\nFindable\nAccessible\nInteroperable\nReproducible\n\n\n\n\n\n\n\n\nMaterials\n\n\n\n\n\nOpen Science is Better Science\nUnderstanding Code\nTidy Data, Archives, Metadata\nExplore the slides following these instructions for navigation.\n\n\n\nPython in One Hour\nPractice Best Practices\nPandas and LTER Signature Datasets\nYou can download unrendered Notebooks at https://github.com/eldobbins/quarto-nga-docs/tree/main/notebooks\n\n\n\nData Discovery using DataONE"
   },
   {
     "objectID": "workshops/2023_data_workshop.html#instructor-information",
@@ -161,81 +175,172 @@
     "text": "Let’s Take a Break"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#goals-why-are-we-doing-this",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#goals-why-are-we-doing-this",
-    "title": "Open Science is Better Science",
-    "section": "Goals: Why Are We Doing This?",
-    "text": "Goals: Why Are We Doing This?\n\n\nLearn some skills\nBuild a structure which enables graceful recovery (scaffolding)\nProvide resources to use in the future (open a door)\nContribute to the community\n\n\n\nWe don’t have time to cover everything."
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#last-week",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#last-week",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Last Week",
+    "text": "Last Week\n\n\nIntro to Programming (Python)\nProgramming Best Practices\nPracticed Best Practices\n\n\n\nOne hour bare-bones Python lesson in Colab\nThe Notebooks have been copied to this website."
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#who-am-i",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#who-am-i",
-    "title": "Open Science is Better Science",
-    "section": "Who am I?",
-    "text": "Who am I?\n\nLiz Dobbins (she/her)\nUsed to work for Seth processing physical oceanographic data\nNow I work for Axiom Data Science\nPython, MATLAB, git, Jupyter, Pandas\nThe Troth Yeddha’ Campus is located on the ancestral lands of the Dena people of the lower Tanana River. Troth Yeddha’ means Indian potato ridge.\n\n\nLiz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing.\n“The parsnip-like root of the plant Hedysarum alpinum is an emergency vegetable food for Alaska Native people.” I love that this campus has been renamed after a food plant."
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#today-data-life-cycle",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#today-data-life-cycle",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Today: Data Life Cycle",
+    "text": "Today: Data Life Cycle\n\nData Life Cycle. DataONE Best Practices\nIn the first week, I introduced this concept. Been described many different ways.\nWhile you are collecting and preparing data for your own analysis, are also thinking of future uses. etc."
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#code-of-conduct",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#code-of-conduct",
-    "title": "Open Science is Better Science",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\n\nUse welcoming and inclusive language\nBe respectful of different viewpoints and experiences\nGracefully accept constructive criticism\nFocus on what is best for the community\nShow courtesy and respect towards other community members\n\nFrom The Carpentries Code of Conduct\n\nspecifically focused on participatory learning environment where we are all putting ourself “out there” and making mistakes"
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#signature-data-example",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#signature-data-example",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Signature Data Example",
+    "text": "Signature Data Example\n\nPlan: LTER has extensive data management\nCollect: Multiple PIs, many years\nAssure: Best quality. Nicely formatted.\nDescribe: There is some metadata on the NGA website\nPreserve: Website includes links to archive\nDiscover: Informal\nIntegrate: Future possibilities\nAnalyze: Python/pandas\n\n\n\nUsed an NGA LTER Signature Dataset\nHow does that illustrate the Data Life Cycle?"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#tell-me-about-you",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#tell-me-about-you",
-    "title": "Open Science is Better Science",
-    "section": "Tell Me About You",
-    "text": "Tell Me About You"
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#definition-of-tidy-data",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#definition-of-tidy-data",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Definition of “Tidy Data”",
+    "text": "Definition of “Tidy Data”\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\nWickham, Hadley. 2014. “Tidy Data”. Journal of Statistical Software 59 (10):1-23. https://doi.org/10.18637/jss.v059.i10.\n\nOh, that’s easy! What isn’t tidy?"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#open-science",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#open-science",
-    "title": "Open Science is Better Science",
-    "section": "Open Science",
-    "text": "Open Science\n\n\nOpen Science is transparent and accessible knowledge that is shared and developed through collaborative networks.\n\n\nOpen Science now: A systematic literature review for an integrated definition. Ruben Vicente-Saez & Clara Martinez-Fuentes, 2018"
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#example-of-messy-data",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#example-of-messy-data",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Example of Messy Data",
+    "text": "Example of Messy Data\nA table of weights:\n\n\n\nPlot\nSpeciesA\nSpeciesB\n\n\n\n\n1\n3.5\n1.2\n\n\n2\n2.8\n4.2\n\n\n\n\n\nthe variable weight is found in multiple columns\nthere are 2 types of species so those are actually variables\n\nvariables should not be used as column headers\n\n\n\nMessy doesn’t mean it isn’t useful. Can be good in paper. Efficient storage.\nHowever, it is hard for a computer to extract data from this table"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#mistakes",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#mistakes",
-    "title": "Open Science is Better Science",
-    "section": "Mistakes?",
-    "text": "Mistakes?\n\nScience, my lad, is made up of mistakes, but they are mistakes which it is useful to make, because they lead little by little to the truth.\n\nJules Verne, A Journey to the Center of the Earth\n\n \n\nDammit!\n\nLiz Dobbins, just yesterday\n\nSo mistakes are constantly with us, but they are so frustrating\nWe want to recover from them quickly"
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#same-data-now-tidy",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#same-data-now-tidy",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Same Data, Now Tidy",
+    "text": "Same Data, Now Tidy\n\n\n\nPlot\nSpecies\nWeight\n\n\n\n\n1\nA\n3.5\n\n\n1\nB\n1.2\n\n\n2\nA\n2.8\n\n\n2\nB\n4.2\n\n\n\n\n\neach row is an observation\nqueries are easier\n\n\n\nPlot==1 & Species==A"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#scripting",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#scripting",
-    "title": "Open Science is Better Science",
-    "section": "Scripting",
-    "text": "Scripting\n\nYou try something and it doesn’t work. What’s the easiest way to fix it?\nIt did work! How do you do it again?\nSomeone else wants to apply what you did to their work!!! How do you show them how?\n\n\nAnswer: Use Code.\nPython, R, MATLAB doesn’t matter\nimport pandas as pd\ndata = pd.read_csv('temperature.csv')\ndata['site1'].plot()"
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#other-qualities-of-tidy-data",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#other-qualities-of-tidy-data",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Other Qualities of Tidy Data",
+    "text": "Other Qualities of Tidy Data\n\nUnits not included in cell with data\nVisual indicators (colors, fonts, italics) not used\nConsistent names\nConsistent date formats\nShort, descriptive language (avoid abstract codes)\nUse consistent value for missing data (NaN, -9999, blank OK for pandas)\nData uniquely assigned to a single table\nSaved as plain text format (CSV)"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#what-is-version-control",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#what-is-version-control",
-    "title": "Open Science is Better Science",
-    "section": "What is Version Control?",
-    "text": "What is Version Control?\n\nCredit: Allison Horst\nVersion control is a system that records changes to a file or set of files over time so you can recall a specific version later.\n\ncollaboration\nmanagement\ntransparency\nreproducibility\n\nWe’ll be talking more about git and version control next week"
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#tidy-data-exercise",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#tidy-data-exercise",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Tidy Data Exercise",
+    "text": "Tidy Data Exercise\nDo the exercise on [Improving Messy Data] DECIDE WHICH (https://docs.google.com/spreadsheets/d/13YnHHDjG_xEaoHJqvVI2U8cJeNgeOyAJ/edit?usp=drive_link&ouid=110380986407305818312&rtpof=true&sd=true) or"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#data-life-cycle",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#data-life-cycle",
-    "title": "Open Science is Better Science",
-    "section": "Data Life Cycle",
-    "text": "Data Life Cycle\n\nData Life Cycle. DataONE Best Practices\nCan think of a scientific project as linear - from hypothesis to publications.\nBut can also think of it as cyclical and interative. Each circuit around produces (one hopes) better quality data and more scientific insight."
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#how-to-discover-data",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#how-to-discover-data",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "How to Discover Data",
+    "text": "How to Discover Data\n\n\n\n\n\n\n\n\nScientific Data Discovery\nStreaming Video\n\n\n\n\nInformally between researchers\nyour mom’s emails\n\n\nVia project or institutional website\na link at nbc.com\n\n\nReferenced in a journal article\nvia a blog review\n\n\nDiscoverable within specialized archive, or repository\nAppleTV or Netflix\n\n\nDiscoverable in network of repositories (Data.gov, DataONE)\nIMDB\n\n\n\n\n\nadvisor -&gt; student\nneed search terms\nwithin text (methods, acknowledgment) or as data citation\nBecome familiar with relevant repositories\nLast is easiest if you don’t know what you are looking for\n\nSignature data is a cross between the first 2"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#data-best-practices",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#data-best-practices",
-    "title": "Open Science is Better Science",
-    "section": "Data Best Practices",
-    "text": "Data Best Practices\n\nWe receive data from other people\nWe supply data to other people\nData need to be\n\nHigh quality\nIn an accessible format\nAccompanied by metadata"
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#lter-data-management-requirements",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#lter-data-management-requirements",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "LTER Data Management Requirements",
+    "text": "LTER Data Management Requirements\n\nSites must have an integrated Information Management System\nData available online within two years of collection\nSites should submit data to repositories\nLong-term (&gt;20 years) usability of data\nMetadata"
   },
   {
-    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#potential-team-project",
-    "href": "slides/2023_reu_intro/2023_intro_slides.html#potential-team-project",
-    "title": "Open Science is Better Science",
-    "section": "Potential Team Project",
-    "text": "Potential Team Project\n\nUse Quarto and GitHub and Markdown to reflect on your REU\nContent/Form of the document is limitless\nGet a DOI (Digital Object Identifier) for later use\n\nGraduate school applications\nJob applications\n\nTour of this Quarto project\n\n\n\nTotally dependent on if you guys have interest and capacity\n\nCould include code/plots/interactive bits (if you use R or Python)\nInclude images"
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#where-is-nga-lter-data-available",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#where-is-nga-lter-data-available",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Where is NGA LTER Data Available?",
+    "text": "Where is NGA LTER Data Available?\n\nhttps://search.dataone.org/portals/NGALTER/About-the-Data-Catalog\n\n\nPortal supplied by DataONE\nData and Metadata is stored in the Research Workspace member node\n\nLet’s explore it"
+  },
+  {
+    "objectID": "slides/2023_data_lifecycle/2023_data_slides.html#data-portal-powered-by-metadata",
+    "href": "slides/2023_data_lifecycle/2023_data_slides.html#data-portal-powered-by-metadata",
+    "title": "Tidy Data, Archives, Metadata",
+    "section": "Data Portal Powered by Metadata",
+    "text": "Data Portal Powered by Metadata"
+  },
+  {
+    "objectID": "notebooks/best_practices_exercise.html",
+    "href": "notebooks/best_practices_exercise.html",
+    "title": "Best Practices Exercise",
+    "section": "",
+    "text": "What follows is some example code from the official Python Tutorial. There is nothing wrong with the syntax. But can you tell what it does and how to use it?\nWe are going to explore this code and improve it by following programming best practices. In the process, we will gain experience with Notebooks and with running Python functions.\nMake a copy of this Notebook in your own Google Drive, and then follow the instructions in the following cells. You will probably want to add more cells as you go along.\ndef fib(n):\n    a, b = 0, 1\n    while a &lt; n:\n        print(a, ' ')\n        a, b = b, a+b\n    print()\n# Add a command to this cell that executes the function.\n# Run it with a few different inputs till you get a good idea of what it does.\n\nfib(20)\n\n0  \n1  \n1  \n2  \n3  \n5  \n8  \n13\nfib(100)\n\n0  \n1  \n1  \n2  \n3  \n5  \n8  \n13  \n21  \n34  \n55  \n89"
+  },
+  {
+    "objectID": "notebooks/best_practices_exercise.html#begin-revisions",
+    "href": "notebooks/best_practices_exercise.html#begin-revisions",
+    "title": "Best Practices Exercise",
+    "section": "Begin Revisions",
+    "text": "Begin Revisions\nCopy the original function to the next cell, and add comments that explain…\n\nWhat is the purpose of the function?\nWhat is the input argument?\nWhat are the variables within the function? (since it isn’t clear from their names)\n\n\nTesting\nWhen you make changes to the code, be sure and test the output to make sure you didn’t change the operation. You can add the execution command beneath the function and compare the output to what you got before.\nThere are automated ways to do this; this is called unit testing. It is a critical element of software development. Comparing printed output is fine for now.\n\n# Add your commented code and the execution line to this cell.  Add comments and run it a few more times.\n\ndef fib(n):\n    # This calculates the Fibonacci Sequence and prints the values.\n    # https://www.mathsisfun.com/numbers/fibonacci-sequence.html\n    # n is the input target number to end the calculation (integer)\n\n    # assign initial values to current and next variables\n    a, b = 0, 1\n\n    # In the Fibonacci Sequence, the current number is the sum of the previous two numbers\n    while a &lt; n:\n        print(a, ' ')\n        # next becomes current. calculate next sum simultaneously\n        a, b = b, a+b\n    print()\n\nfib(20)\n\n0  \n1  \n1  \n2  \n3  \n5  \n8  \n13"
+  },
+  {
+    "objectID": "notebooks/best_practices_exercise.html#simplify-code",
+    "href": "notebooks/best_practices_exercise.html#simplify-code",
+    "title": "Best Practices Exercise",
+    "section": "Simplify Code",
+    "text": "Simplify Code\nAfter adding comments, are there still parts of the code that you don’t understand?\nFor instance, a, b = b, a+b to Python means “create a tuple and then assign it to two variables with a destructuring assignment”. The advantage of this is that both a and b are assigned new values simultaneously; the orginal value of b will be used for both.\nIf you don’t know what that means, it might be best reorganize the code in a way to do understand. Feel free to make another copy in the next cell and break those assignments into separate lines. You will need a temporary place to stash the orginal value of b.\n\n# If you want to, add your commented code with the execution line to this cell\n# and change the commands to ones you understand.\n# Make sure you didn't change the answer!\n\ndef fib(n):\n    # This calculates the Fibonacci Sequence and prints the values.\n    # https://www.mathsisfun.com/numbers/fibonacci-sequence.html\n    # n is the input target number to end the calculation (integer)\n\n    # assign initial values to current and next variables\n    a = 0\n    b = 1\n\n    # In the Fibonacci Sequence, the current number is the sum of the previous two numbers\n    while a &lt; n:\n        print(a, ' ')\n        # next becomes current, and calculate next sum simultaneously\n        c = a + b\n        a = b\n        b = c\n    print()\n\nfib(20)\n\n\n0  \n1  \n1  \n2  \n3  \n5  \n8  \n13"
+  },
+  {
+    "objectID": "notebooks/best_practices_exercise.html#self-documenting-code",
+    "href": "notebooks/best_practices_exercise.html#self-documenting-code",
+    "title": "Best Practices Exercise",
+    "section": "Self Documenting Code",
+    "text": "Self Documenting Code\nFor the next revision, make another copy and change the function and variable names so they are more descriptive.\nYou can also annotate the function call to specify the type of the argument using typing.\nWhen you are done:\n\nWhat comments can you remove after you make this change?\nDoes removing comments make the code easier or harder to read?\n\nNote: your answer to this depends on your style, and may evolve in time\n\n\n\n# Add the next version here.\n\ndef fibonacci_sequence(target: int) -&gt; None:\n    # This calculates the Fibonacci Sequence and prints the values.\n    # https://www.mathsisfun.com/numbers/fibonacci-sequence.html\n\n    # assign initial values to current and next variables\n    current = 0\n    next = 1\n\n    # print the sequence: the current number is the sum of the two previous\n    while current &lt; target:\n        print(current, ' ')\n        next_sum = current + next\n        current = next\n        next = next_sum\n\nfibonacci_sequence(20)\n\n0  \n1  \n1  \n2  \n3  \n5  \n8  \n13"
+  },
+  {
+    "objectID": "notebooks/best_practices_exercise.html#individuality",
+    "href": "notebooks/best_practices_exercise.html#individuality",
+    "title": "Best Practices Exercise",
+    "section": "Individuality",
+    "text": "Individuality\nBy this time, your code might look very different from your neighbor’s.\n\nThat is completely fine!\nBut your neighbor should be able to read your code and get what you are doing. Take a minute to compare your Notebook to other people’s."
+  },
+  {
+    "objectID": "notebooks/best_practices_exercise.html#epilogue",
+    "href": "notebooks/best_practices_exercise.html#epilogue",
+    "title": "Best Practices Exercise",
+    "section": "Epilogue",
+    "text": "Epilogue\nWhen I wrote the descriptive code, I realized that the loop is built in terms of current and next, and that conflicts a little with the formal definition of the Fibonacci Sequence. So I’m rewriting again to reflect the math better.\nAlso, it is possible, and more compact, to write all the numbers on a single line, so do that too.\n\n\ndef fibonacci_sequence(target: int) -&gt; None:\n    # This calculates the Fibonacci Sequence and prints the values.\n    # https://www.mathsisfun.com/numbers/fibonacci-sequence.html\n\n    # assign initial values\n    previous = 0\n    current = 1\n\n    # print the sequence\n    print(previous, end=' ')\n    while current &lt; target:\n        print(current, end=' ')\n        # the next number is the sum of the two numbers before it\n        next_sum = previous + current\n        previous = current\n        current = next_sum\n\nfibonacci_sequence(20)\n\n0 1 1 2 3 5 8 13"
+  },
+  {
+    "objectID": "notebooks/pandas_signature_dataset.html#create-a-dataframe",
+    "href": "notebooks/pandas_signature_dataset.html#create-a-dataframe",
+    "title": "When Can I Swim in the Gulf of Alaska?",
+    "section": "Create a Dataframe",
+    "text": "Create a Dataframe\nThe DataFrame is the way Pandas represents a table. Technically, DataFrame is a class with lots of associated methods. What that means is when you read data into a DataFrame, it looks like a spreadsheet that you can manipulate easily.\nYou can read a DataFrame in from a CSV, even it is posted on the web somewhere. Here, one of NGA LTER’s signature datasets is read into a DataFrame. The data is Dr. Seth Danielson’s GAK1 Temperature and Salinity Time Series. It is available and described on the NGA LTER website.\nNote that this dataset is “tidy”, which enables pandas to read it. “Tidy” means:\n\nOnly rows and columns, no additional structure\nOne column for each type of information\nOne row for each observation (i.e., data point)\n\n\n# define the URL of the data\nfilename = 'https://nga.lternet.edu/wp-content/uploads/2021/06/GAK1_SignatureDataSet.csv'\n\n# read the data\n# It is comma delimited, but there are spaces in front of each comma that we\n# want to ignore.\ndata = pd.read_csv(filename, skipinitialspace=True)\n\n# what does it look like?\ndata.head()\n\n\n\n  \n    \n      \n\n\n\n\n\n\nYear\nMonth\n0-50m Temperature (deg.C)\n150-200m Temperature (deg.C)\n0-50m Salinity\n150-200m Salinity\n0-50m Temperature Anomaly (deg.C)\n150-200m Temperature Anomaly (deg.C)\n0-50m Salinity Anomaly\n150-200m Salinity Anomaly\n\n\n\n\n0\n1970\n1\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n1\n1970\n2\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n2\n1970\n3\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n3\n1970\n4\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n4\n1970\n5\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN\nNaN"
+  },
+  {
+    "objectID": "notebooks/pandas_signature_dataset.html#what-is-that",
+    "href": "notebooks/pandas_signature_dataset.html#what-is-that",
+    "title": "When Can I Swim in the Gulf of Alaska?",
+    "section": "What is that?",
+    "text": "What is that?\nThe website describes the following columns:\nData Column Contents:\n\nYear\n\nMonth\nSurface Temperature (degrees Celsius)\nDeep Temperature (degrees Celsius)\nSurface Salinity (nondimensional)\nDeep Salinity (nondimensional)\nSurface Temperature Anomaly (degrees Celsius)\nDeep Temperature Anomaly (degrees Celsius)\n\nSurface Salinity Anomaly (nondimensional)\nDeep Salinity Anomaly (nondimensional)\nDepth Layer definitions:\n\nWhere:\n\nSurface: 0 – 50 m\nDeep: 150 – 200 m\n\nThis is “Metadata” or data about data, and is important to understanding the data. From the metadata, I see that I should base my decision on Surface Temperature in degrees Celsius.\nOne thing the metadata doesn’t say is that NaN means that no data was collected during that month. The method head() only shows the first few rows where there isn’t yet data. We can use describe() to give an overview of the data.\n\ndata.describe()\n\n\n\n  \n    \n      \n\n\n\n\n\n\nYear\nMonth\n0-50m Temperature (deg.C)\n150-200m Temperature (deg.C)\n0-50m Salinity\n150-200m Salinity\n0-50m Temperature Anomaly (deg.C)\n150-200m Temperature Anomaly (deg.C)\n0-50m Salinity Anomaly\n150-200m Salinity Anomaly\n\n\n\n\ncount\n624.000000\n624.000000\n437.000000\n435.000000\n437.000000\n435.000000\n437.000000\n435.000000\n437.000000\n435.000000\n\n\nmean\n1995.500000\n6.500000\n7.318886\n5.755129\n30.418137\n32.509759\n0.001140\n-0.000005\n-0.004380\n0.000016\n\n\nstd\n15.020371\n3.454822\n2.788359\n0.818272\n0.981993\n0.343975\n0.862792\n0.630108\n0.422792\n0.211970\n\n\nmin\n1970.000000\n1.000000\n1.758000\n2.130000\n26.597000\n31.536000\n-3.126000\n-3.142000\n-2.656000\n-0.736000\n\n\n25%\n1982.750000\n3.750000\n4.929000\n5.285500\n29.739000\n32.261000\n-0.523000\n-0.397000\n-0.241000\n-0.145000\n\n\n50%\n1995.500000\n6.500000\n6.854000\n5.778000\n30.724000\n32.539000\n-0.010000\n0.037000\n0.023000\n-0.004000\n\n\n75%\n2008.250000\n9.250000\n9.889000\n6.315000\n31.179000\n32.778000\n0.543000\n0.365000\n0.247000\n0.125500\n\n\nmax\n2021.000000\n12.000000\n13.239000\n7.903000\n31.998000\n33.224000\n2.423000\n1.763000\n1.599000\n0.702000"
+  },
+  {
+    "objectID": "notebooks/pandas_signature_dataset.html#advantages-of-pandas",
+    "href": "notebooks/pandas_signature_dataset.html#advantages-of-pandas",
+    "title": "When Can I Swim in the Gulf of Alaska?",
+    "section": "Advantages of pandas",
+    "text": "Advantages of pandas\nMy first objective is to find the warmest month. We could do this with basic Python control commands - looping through the months with for and collecting data for certain months with if.\nHowever, pandas wraps that concept in a single command. Therefore, it is much easier to perform data exploration with pandas than with elementary Python.\n\n# What month would be warmest?  Make a climatology by grouping measurements\n# made in the same month, and then taking the mean of each group.\n\n# We can \"chain\" commands together to avoid defining an intermediate variable.\nclimatology = data.groupby('Month').mean()"
+  },
+  {
+    "objectID": "notebooks/pandas_signature_dataset.html#climatology",
+    "href": "notebooks/pandas_signature_dataset.html#climatology",
+    "title": "When Can I Swim in the Gulf of Alaska?",
+    "section": "Climatology",
+    "text": "Climatology\nThere are 12 rows in my new climatology DataFrame - one for each month. The columns are the same as before. Each cell is the mean of all the values in the month.\nAll the methods that worked with our first DataFrame, data, will also work with this one.\n\nclimatology.head()\n\n\n\n  \n    \n      \n\n\n\n\n\n\nYear\n0-50m Temperature (deg.C)\n150-200m Temperature (deg.C)\n0-50m Salinity\n150-200m Salinity\n0-50m Temperature Anomaly (deg.C)\n150-200m Temperature Anomaly (deg.C)\n0-50m Salinity Anomaly\n150-200m Salinity Anomaly\n\n\nMonth\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n1995.5\n5.061346\n6.473077\n30.864038\n32.182500\n0.016346\n5.871372e-18\n-0.004077\n0.000077\n\n\n2\n1995.5\n4.389844\n5.704344\n31.157719\n32.052813\n0.019281\n3.125000e-05\n-0.014500\n-0.000031\n\n\n3\n1995.5\n3.923026\n5.272184\n31.301000\n32.182684\n0.003474\n-2.631579e-05\n0.000447\n-0.000026\n\n\n4\n1995.5\n4.338439\n5.069707\n31.381073\n32.267805\n0.003195\n-2.439024e-05\n0.001659\n0.000024\n\n\n5\n1995.5\n5.742000\n5.374590\n31.266974\n32.435333\n-0.000846\n-5.128205e-05\n0.003026\n0.000026\n\n\n\n\n\n\n      \n\n  \n    \n    \n  \n      \n\n\n\n    \n      \n\n\n    \n        \n    \n\n      \n    \n\n\n\n    \n\n      \n      \n\n      \n    \n  \n\n\n\nclimatology.describe()\n\n\n\n  \n    \n      \n\n\n\n\n\n\nYear\n0-50m Temperature (deg.C)\n150-200m Temperature (deg.C)\n0-50m Salinity\n150-200m Salinity\n0-50m Temperature Anomaly (deg.C)\n150-200m Temperature Anomaly (deg.C)\n0-50m Salinity Anomaly\n150-200m Salinity Anomaly\n\n\n\n\ncount\n12.0\n12.000000\n12.000000\n12.000000\n12.000000\n12.000000\n1.200000e+01\n12.000000\n12.000000\n\n\nmean\n1995.5\n7.290497\n5.780855\n30.416319\n32.502578\n0.001839\n-5.398994e-06\n-0.004740\n0.000017\n\n\nstd\n0.0\n2.783246\n0.544361\n0.898149\n0.291053\n0.019244\n5.501139e-05\n0.009020\n0.000040\n\n\nmin\n1995.5\n3.923026\n5.069707\n28.921054\n32.052813\n-0.038463\n-1.081081e-04\n-0.020757\n-0.000031\n\n\n25%\n1995.5\n4.893471\n5.395429\n29.659397\n32.246525\n-0.002003\n-3.255735e-05\n-0.011184\n-0.000025\n\n\n50%\n1995.5\n6.833792\n5.670168\n30.663703\n32.510106\n0.003334\n1.944415e-18\n-0.003402\n0.000025\n\n\n75%\n1995.5\n9.845726\n6.032850\n31.185033\n32.783548\n0.017080\n2.864583e-05\n0.000750\n0.000037\n\n\nmax\n1995.5\n11.480000\n6.794200\n31.381073\n32.902938\n0.026081\n1.000000e-04\n0.011293\n0.000079"
+  },
+  {
+    "objectID": "notebooks/pandas_signature_dataset.html#make-a-plot",
+    "href": "notebooks/pandas_signature_dataset.html#make-a-plot",
+    "title": "When Can I Swim in the Gulf of Alaska?",
+    "section": "Make a plot",
+    "text": "Make a plot\n\n# I guess that DataFrames have a `plot` method. To find out more ...\n\nclimatology.plot?\n\n\n# Plot just the column that I am interested in\n# Use arguments to add elements to the plot\n\ntemp_c = climatology['0-50m Temperature (deg.C)']\ntemp_c.plot(\n    title='Climatology of GAK1 Surface Temperature',\n    ylabel='degree C'\n)\n\n&lt;Axes: title={'center': 'Climatology of GAK1 Surface Temperature'}, xlabel='Month', ylabel='degree C'&gt;\n\n\n\n\n\n\n# That looks promising. It is warmer in late summer.\n# But I'm more familiar with degrees Fahrenheit.\n# Luckily, we can do math in pandas too.\n\n# Convert the units of temperature\ntemp_f = climatology['0-50m Temperature (deg.C)'] * 9/5 + 32\n\ntemp_f.plot(\n    title='Climatology of GAK1 Surface Temperature',\n    ylabel='degree F'\n)\n\n&lt;Axes: title={'center': 'Climatology of GAK1 Surface Temperature'}, xlabel='Month', ylabel='degree F'&gt;"
+  },
+  {
+    "objectID": "notebooks/pandas_signature_dataset.html#on-what-date-was-the-maximum",
+    "href": "notebooks/pandas_signature_dataset.html#on-what-date-was-the-maximum",
+    "title": "When Can I Swim in the Gulf of Alaska?",
+    "section": "On what date was the maximum?",
+    "text": "On what date was the maximum?\n52 F is too cold for me to swim. But I am still hopeful. Maybe I can look at the maximum instead.\n\n# What is the maximum temperature at the surface?\n\ntemp_max = data['0-50m Temperature (deg.C)'].max()\ntemp_max\n\n13.239\n\n\n\n# When was the maximum?\n# For this, we can subset the original dataset according to a criteria\n\ndata.loc[data['0-50m Temperature (deg.C)'] == temp_max]\n\n\n\n  \n    \n      \n\n\n\n\n\n\nYear\nMonth\n0-50m Temperature (deg.C)\n150-200m Temperature (deg.C)\n0-50m Salinity\n150-200m Salinity\n0-50m Temperature Anomaly (deg.C)\n150-200m Temperature Anomaly (deg.C)\n0-50m Salinity Anomaly\n150-200m Salinity Anomaly\n\n\n\n\n536\n2014\n9\n13.239\n5.778\n29.071\n32.756\n1.704\n0.121\n0.109\n-0.09\n\n\n\n\n\n\n      \n\n  \n    \n    \n  \n      \n\n\n\n    \n      \n\n\n    \n        \n    \n\n      \n    \n\n\n\n    \n\n      \n      \n\n      \n    \n  \n\n\n\n# And what is that in F?\n\ntemp_max * 9/5 + 32\n\n55.830200000000005\n\n\n\nNope. That is still too cold."
   },
   {
     "objectID": "index.html",
@@ -320,6 +425,83 @@
     "title": "Intro to Python",
     "section": "Packages",
     "text": "Packages\nBy default, you have access to only a few object classes and functions. But you can import (and create) packages and modules that enable many many more. To do this, use import. This is typically at the beginning of your Notebook or script, but it can go anywhere.\nThe Standard Python Library (https://docs.python.org/3/library/) contains those that are supported by and installed with Python. math is in the Standard Library. See https://docs.python.org/3/library/math.html for more information on it.\nOthers are available via pip or conda. numpy and pandas are examples of these.\n\nimport math\n\nmath.log10(10)\n\n1.0\n\n\n\nfrom math import pi, cos\n\ncos(pi)\n\n-1.0"
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#goals-why-are-we-doing-this",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#goals-why-are-we-doing-this",
+    "title": "Open Science is Better Science",
+    "section": "Goals: Why Are We Doing This?",
+    "text": "Goals: Why Are We Doing This?\n\n\nLearn some skills\nBuild a structure which enables graceful recovery (scaffolding)\nProvide resources to use in the future (open a door)\nContribute to the community\n\n\n\nWe don’t have time to cover everything."
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#who-am-i",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#who-am-i",
+    "title": "Open Science is Better Science",
+    "section": "Who am I?",
+    "text": "Who am I?\n\nLiz Dobbins (she/her)\nUsed to work for Seth processing physical oceanographic data\nNow I work for Axiom Data Science\nPython, MATLAB, git, Jupyter, Pandas\nThe Troth Yeddha’ Campus is located on the ancestral lands of the Dena people of the lower Tanana River. Troth Yeddha’ means Indian potato ridge.\n\n\nLiz Dobbins has been working with oceanographic data for more than 30 years in both academia and the private sector. She has collected data at sea, processed sensor data, mapped assets, utilized numerical models, and used open-source Python tools to ingest data into a public-facing data portal. She is a certified Carpentries instructor and is eager to talk about best practices regarding scientific computing.\n“The parsnip-like root of the plant Hedysarum alpinum is an emergency vegetable food for Alaska Native people.” I love that this campus has been renamed after a food plant."
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#code-of-conduct",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#code-of-conduct",
+    "title": "Open Science is Better Science",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\n\nUse welcoming and inclusive language\nBe respectful of different viewpoints and experiences\nGracefully accept constructive criticism\nFocus on what is best for the community\nShow courtesy and respect towards other community members\n\nFrom The Carpentries Code of Conduct\n\nspecifically focused on participatory learning environment where we are all putting ourself “out there” and making mistakes"
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#tell-me-about-you",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#tell-me-about-you",
+    "title": "Open Science is Better Science",
+    "section": "Tell Me About You",
+    "text": "Tell Me About You"
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#open-science",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#open-science",
+    "title": "Open Science is Better Science",
+    "section": "Open Science",
+    "text": "Open Science\n\n\nOpen Science is transparent and accessible knowledge that is shared and developed through collaborative networks.\n\n\nOpen Science now: A systematic literature review for an integrated definition. Ruben Vicente-Saez & Clara Martinez-Fuentes, 2018"
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#mistakes",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#mistakes",
+    "title": "Open Science is Better Science",
+    "section": "Mistakes?",
+    "text": "Mistakes?\n\nScience, my lad, is made up of mistakes, but they are mistakes which it is useful to make, because they lead little by little to the truth.\n\nJules Verne, A Journey to the Center of the Earth\n\n \n\nDammit!\n\nLiz Dobbins, just yesterday\n\nSo mistakes are constantly with us, but they are so frustrating\nWe want to recover from them quickly"
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#scripting",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#scripting",
+    "title": "Open Science is Better Science",
+    "section": "Scripting",
+    "text": "Scripting\n\nYou try something and it doesn’t work. What’s the easiest way to fix it?\nIt did work! How do you do it again?\nSomeone else wants to apply what you did to their work!!! How do you show them how?\n\n\nAnswer: Use Code.\nPython, R, MATLAB doesn’t matter\nimport pandas as pd\ndata = pd.read_csv('temperature.csv')\ndata['site1'].plot()"
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#what-is-version-control",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#what-is-version-control",
+    "title": "Open Science is Better Science",
+    "section": "What is Version Control?",
+    "text": "What is Version Control?\n\nCredit: Allison Horst\nVersion control is a system that records changes to a file or set of files over time so you can recall a specific version later.\n\ncollaboration\nmanagement\ntransparency\nreproducibility\n\nWe’ll be talking more about git and version control next week"
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#data-life-cycle",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#data-life-cycle",
+    "title": "Open Science is Better Science",
+    "section": "Data Life Cycle",
+    "text": "Data Life Cycle\n\nData Life Cycle. DataONE Best Practices\nCan think of a scientific project as linear - from hypothesis to publications.\nBut can also think of it as cyclical and interative. Each circuit around produces (one hopes) better quality data and more scientific insight."
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#data-best-practices",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#data-best-practices",
+    "title": "Open Science is Better Science",
+    "section": "Data Best Practices",
+    "text": "Data Best Practices\n\nWe receive data from other people\nWe supply data to other people\nData need to be\n\nHigh quality\nIn an accessible format\nAccompanied by metadata"
+  },
+  {
+    "objectID": "slides/2023_reu_intro/2023_intro_slides.html#potential-team-project",
+    "href": "slides/2023_reu_intro/2023_intro_slides.html#potential-team-project",
+    "title": "Open Science is Better Science",
+    "section": "Potential Team Project",
+    "text": "Potential Team Project\n\nUse Quarto and GitHub and Markdown to reflect on your REU\nContent/Form of the document is limitless\nGet a DOI (Digital Object Identifier) for later use\n\nGraduate school applications\nJob applications\n\nTour of this Quarto project\n\n\n\nTotally dependent on if you guys have interest and capacity\n\nCould include code/plots/interactive bits (if you use R or Python)\nInclude images"
   },
   {
     "objectID": "slides/2023_git/2023_git_slides.html#introductions",
@@ -411,5 +593,47 @@
     "title": "2023 Git Workshop",
     "section": "One Day Git Workshop, 2023",
     "text": "One Day Git Workshop, 2023\nThis one day workshop is meant as a refresher of the skills we practiced in 2021’s Beginning Scientific Programming for NGA LTER Graduate Students. The workshop will begin with a short presentation of the importance of version control; this portion focuses on the themes of collaboration and inclusivity championed by the Openscapes project.\nFollowing that orientation is a one hour participatory practice session working through parts of the Software Carpentries Git Novice Lesson.\n\n\n\n\n\n\nSlides\n\n\n\nVersion Control with git (and GitHub)\nExplore the slides following these instructions for navigation."
+  },
+  {
+    "objectID": "resources/programming.html",
+    "href": "resources/programming.html",
+    "title": "NGA LTER Programming Resources",
+    "section": "",
+    "text": "A great book: The Programmer’s Brain, What every programmer needs to know about cognition, by Felienne Hermans."
+  },
+  {
+    "objectID": "resources/programming.html#python",
+    "href": "resources/programming.html#python",
+    "title": "NGA LTER Programming Resources",
+    "section": "Python",
+    "text": "Python\n\n\n\n\n\nPython is essentially an open source programming language. But the Python ecosystem encompasses a dizzying constellation of tools, packages, disciplines, and organizations. The center is the Python Standard Library - a set of built-in functions and modules. But anyone can build extensions to that called packages.\nBecause of these layers, it is sometimes difficult to know how to find information on the particular object type or function that you want to use. Another difficulty is the big disconnect between basic tutorials that cover Python syntax and the modern packages that are used to actually do the work. Those packages often are so abstract that you might not need to know much syntax to do some really cool things.\nIt is suggested that you learn the rudiments of the language and learn to read documentation. Memorize the basic syntax to ease understanding more complicated code later. But don’t view Numpy and Matplotlib as the next step! You should jump to packages like to Pandas and Xarray as soon as you can, because they wrap most plotting and array manipulations in a much easier syntax.\n\nDocumentation\n\nMost recent Python Docs\nThe Python Standard Library\n\n\n\nTutorials\nPython learning resources have exploded in recent years because of its usefulness in fields like Machine Learning and Artificial Intelligence (ML/AI). All the big online education companies (Coursera, Udemy, etc.) offer Python classes. But you don’t need a whole course to get started. Here are some online tutorials oriented to scientific programming or even oceanography specifically.\n\nPython for Non-Programmers\nThe Carpentries offers several Python tutorials\n\nData Analysis and Visualization in Python for Ecologists: jumps right into pandas\nPython for Atmosphere and Ocean Scientists is a community developed lesson specifically for Ocean and Atmospheric science using Xarray\nPlotting and Programming in Python: using pandas and gapminder data\n\nOur Coding Club has several science related Python tutorials\nDatalab at Rutgers University has several oceanography specific tutorials prepared for REU students during the online 2020 season.\n\n\n\nRelevant Packages\n\nGeneral Data Manipulation\n\npandas: data analysis and manipulation tool for 1D and 2D data - like for data easily stored in CSV (comma separated values) files and tables.\n\npandas docs. Pandas documentation is some of the best documentation around!\npandas Getting started tutorials\n\nXarray: N-D labeled arrays and datasets in Python - like for netCDF files and model output.\n\nXarray docs\nXarray Tutorial\n\n\n\n\nEarth Sciences\n\nSci-tools: powerful Python-based open-source tools for Earth scientists. Includes:\n\nCartopy is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses.\ncf-units is a wrapper class to support Unidata/UCAR UDUNITS-2\nIris is a powerful tool used for manipulating multi-dimensional earth science data\n\n\n\n\nSpecifically Oceanographic\n\nGibbs Sea Water Toolbox: Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10)\ncmocean: Beautiful colormaps for oceanography\nA stack of GitHub repos called POceans: Python modules for oceanography\n\nIncludes list of packages called SEA-PY: Python Tools for Oceanographic Analysis\n\nAnother list from the SOEST, University of Hawaii: The Python scientific stack for oceanography\n\n\n\n\nAdditional Tools\nSeveral types of additional tools will make your Python experience much better. First, because packages make Python so powerful, proficiency with package management (pip, conda, mamba) is essential. Second, whereas MATLAB and R have a single primary integrated development environment (IDE), Python has multiple possibilities such as Spyder, PyCharm, or VSCode; using one of these makes debugging so much easier. Lastly, you can mix Markdown and Python in Jupyter Notebooks, or even use Jupyter Lab as an IDE.\n\nPackage Management\n\nStandard Package Managment (pip)\nConda Users Guide - package management using virtual environments\nMamba Docs - like conda but much faster for virtual environments with complicated packages and dependencies.\n\n\n\nIDEs\n\nSpyder the Scientific Python Development Environment written in Python and distributed as a package.\nPyCharm, “The Python IDE for Professional Developers”\nVSCode is a code editor for multiple languages that has a Python extension.\nPythonTutor is not an IDE, but can be used to visualize code operation as the debugger of an IDE would.\n\n\n\nJupyter Notebooks\n\nJupyter Notebooks, “A computational … shareable document that combines computer code, plain language descriptions, data, rich visualizations like 3D models, charts, graphs and figures, and interactive controls.”\nJupyterLab is a “highly extensible, feature-rich notebook authoring application and editing environment”. That means you run Notebooks in Jupyter Lab.\nGoogle Colaboratory (Colab): write and execute Python in your browser. Not exactly Jupyter, but pretty close.\nResearch Workspace, the platform that NGA LTER uses for data management, includes Jupyter Notebooks within that environment."
+  },
+  {
+    "objectID": "resources/programming.html#r",
+    "href": "resources/programming.html#r",
+    "title": "NGA LTER Programming Resources",
+    "section": "R",
+    "text": "R\n\n\n\n\n\nR is a programming language. You can use it more easily within RStudio, an integrated development environment (IDE). From What is R?:\n\nMany users think of R as a statistics system. We prefer to think of it as an environment within which statistical techniques are implemented. R can be extended (easily) via packages. There are about eight packages supplied with the R distribution and many more are available through the CRAN family of Internet sites covering a very wide range of modern statistics.\n\n\nThe R Project for Statistical Computing\nOpenscapes’ Coding strategies for future us\nWhat They Forgot to Teach You About R"
+  },
+  {
+    "objectID": "resources/programming.html#matlab",
+    "href": "resources/programming.html#matlab",
+    "title": "NGA LTER Programming Resources",
+    "section": "MATLAB",
+    "text": "MATLAB\n\n\n\n\n\nMATLAB is a product of the company Mathworks. From the MATLAB Home Page\n\nMATLAB combines a desktop environment tuned for iterative analysis and design processes with a programming language that expresses matrix and array mathematics directly. It includes the Live Editor for creating scripts that combine code, output, and formatted text in an executable notebook.\n\n\nMATLAB tutorials and documentation are primary hosted by the company itself. For example:\n\nMATLAB Onramp\nMathwork’s Help Center\n\nMany academic courses are also available via Googling.\n\nThis includes Dr Seth Danielson’s UAF course OCN F459 Computer Programming for Scientific Applications. An example syllabus from 2015 is available."
+  },
+  {
+    "objectID": "resources/programming.html#markdown",
+    "href": "resources/programming.html#markdown",
+    "title": "NGA LTER Programming Resources",
+    "section": "Markdown",
+    "text": "Markdown\n\n\n\n\n\nMarkdown is inline mark-up used for converting plain text files to HTML. It was developed with the goal of making documents that are easy to write and read, independent of the final formatting. The tags are simple and limited, so it is easy to learn. Different organizations have extended the original concept, so you will probably run across different version of it.\n\nFor short lists of tags, Google markdown cheatsheet. For example Cheatography’s The Ultimate Markdown Cheat Sheet\nJohn Gruber’s Markdown Syntax - the original from 2004.\nGitHub Flavored Markdown Spec - for README files and other documents rendered within a GitHub repository. It is extremely specific, but might contain tags that are not defined in other situations.\nThe Quarto publishing system uses Pandoc’s Markdown - an extended and slightly revised version of John Gruber’s Markdown syntax adapted for publishing."
+  },
+  {
+    "objectID": "resources/programming.html#fortran",
+    "href": "resources/programming.html#fortran",
+    "title": "NGA LTER Programming Resources",
+    "section": "Fortran",
+    "text": "Fortran\nFortran is a programming language optimized for arithmetic computations performed over large numeric arrays. It is used for large-scale numerical models such as the Regional Ocean Modeling System (ROMS]. Python’s Numpy is mainly written in C and C++, but it can use pre-compiled Linear Algebra libraries (OpenBLAS or MKL) which might have been written in FORTRAN. R can also link to Fortran code.\n\nThere are different open source and commercial Fortran compilers, so it is best to look at the documentation for the one you are using. For instance:\n\nGNU Fortran Compiler (gfortran)\nIntel’s Fortran Compiler (ifc) and Fortran Compiler Classic (ifort)\n\nOur Coding Club’s Introduction to Fortran\nfortran-lang.org’s Learn Fortran series\nIDEs (analogous to MATLAB and RStudio) are available for Fortran as well. It is highly recommended to use an IDE of some sort."
   }
 ]
